@@ -21,4 +21,9 @@ import WelcomeTabTextCtn from './WelcomeTabTextCtn.vue';
 .welcome-tab-mini-ctn{
     padding-top:50px;
 }
+@media screen and (max-width:890px){
+    .welcome-tab{
+        padding: 26px 20px;
+    }
+}
 </style>

@@ -22,7 +22,17 @@ img{
         justify-content:center;
     }
     .welcome-tab-img-ctn img{
-        width:50vw;
+        width: 400px;
+    }
+}
+@media screen and (max-width:500px){
+    .welcome-tab-img-ctn img{
+        width: 300px;
+    }
+}
+@media screen and (max-width:360px){
+    .welcome-tab-img-ctn img{
+        width: 250px;
     }
 }
 </style>
