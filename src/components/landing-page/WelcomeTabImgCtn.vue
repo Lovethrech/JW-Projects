@@ -1,6 +1,6 @@
 <template>
     <div class="welcome-tab-img-ctn">
-        <img src="/public/cuate.svg" alt="">
+        <img src="/public/cuate.svg" alt="Welcome tab Avatar">
     </div>
 </template>
 
