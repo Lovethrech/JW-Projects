@@ -13,7 +13,7 @@
   width: 30vw;
 }
 @media screen and (max-width:890px){
-  .main-ctn{
+  .welcome-tab-main-ctn{
     width:100vw;
   }
 }
