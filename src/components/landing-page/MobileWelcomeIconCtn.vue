@@ -8,6 +8,11 @@
 
 <style scoped>
 .mobile-welcome-icon-ct{
+    width:100%;
+    display:flex;
+    justify-content:right;
+}
+.mobile-welcome-icon-ct-mini-ctn{
     width:30px;
 
 }
