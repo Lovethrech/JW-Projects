@@ -7,7 +7,7 @@ import MobileWelcomeIconCtn from "@/components/landing-page/MobileWelcomeIconCtn
     <div class="main-ctn">
         <div class="main-ctn-mini-ctn">
             <WelcomeTab></WelcomeTab>
-            <MobileWelcomeIconCtn></MobileWelcomeIconCtn>
+            <MobileWelcomeIconCtn class="mobile-welcome-icon-ctn"></MobileWelcomeIconCtn>
         </div>
     </div>
 </template>
@@ -21,5 +21,8 @@ import MobileWelcomeIconCtn from "@/components/landing-page/MobileWelcomeIconCtn
     display:flex;
     justify-content: space-between;
     flex-direction: column;
+}
+.mobile-welcome-icon-ctn{
+    display:none;
 }
 </style>

@@ -14,7 +14,10 @@
 }
 .mobile-welcome-icon-ct-mini-ctn{
     width:30px;
-
+}
+.mobile-welcome-icon-ct-mini-ctn:hover{
+    transform:scaleX(1.3);
+    transition: all .65s;
 }
 .mobile-welcome-icon-ct img{
     width:100%;
