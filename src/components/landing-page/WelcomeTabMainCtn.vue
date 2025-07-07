@@ -1,5 +1,5 @@
 <script setup>
-import WelcomeTab from '../WelcomeTabContentCtn.vue';
+import WelcomeTab from '../WelcomeTab.vue';
 import MobileWelcomeIconCtn from "@/components/landing-page/MobileWelcomeIconCtn.vue";
 </script>
 
