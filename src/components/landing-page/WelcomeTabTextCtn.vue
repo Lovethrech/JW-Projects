@@ -8,3 +8,13 @@
         </p>
     </div>
 </template>
+
+<style scoped>
+.welcome-tab-text-ctn .title{
+    font-size:4vh;
+    font-weight:800;
+}
+.welcome-tab-text-ctn .desc{
+    color: #7a7878;
+}
+</style>
