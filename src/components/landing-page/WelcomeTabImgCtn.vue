@@ -13,4 +13,16 @@ img{
     width:100%;
     height:100%;
 }
+
+@media screen and (max-width:890px){
+    .welcome-tab-img-ctn{
+        width:100%;
+        display:flex;
+        place-items:center;
+        justify-content:center;
+    }
+    .welcome-tab-img-ctn img{
+        width:50vw;
+    }
+}
 </style>

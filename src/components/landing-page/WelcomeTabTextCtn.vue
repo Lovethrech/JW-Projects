@@ -18,4 +18,10 @@
     color: #7a7878;
     font-size: 1.5vh;
 }
+
+@media screen and (max-width:890px){
+    .welcome-tab-text-ctn{
+        text-align:center
+    }
+}
 </style>
