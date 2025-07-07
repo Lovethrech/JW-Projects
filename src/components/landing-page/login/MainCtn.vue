@@ -13,5 +13,13 @@ import MobileWelcomeIconCtn from "@/components/landing-page/MobileWelcomeIconCtn
 </template>
 
 <style scoped>
-
+.main-ctn-mini-ctn{
+    width:100%;
+    height:100%;
+}
+.main-ctn-mini-ctn{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
 </style>
