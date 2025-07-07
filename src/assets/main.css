@@ -9,4 +9,6 @@
 /* MAIN CONTAINER IN LOGIN AND SIGNUP PAGE  */
 .main-ctn{
   background-color: #dad9d9;
+  height:100vh;
+  width: 40vw;
 }

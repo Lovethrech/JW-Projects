@@ -11,3 +11,9 @@ import WelcomeTabTextCtn from './WelcomeTabTextCtn.vue';
         </div>
     </section>
 </template>
+
+<style scoped>
+.welcome-tab{
+    
+}
+</style>
