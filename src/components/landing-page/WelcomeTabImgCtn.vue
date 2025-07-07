@@ -6,6 +6,12 @@
 
 <style scoped>
 .welcome-tab-img-ctn{
-    padding:50px 0;
+    padding:80px 0 0;
+    width:25vw;
+}
+img{
+    width:100%;
+    height:100%;
+
 }
 </style>

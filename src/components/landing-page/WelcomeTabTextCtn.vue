@@ -16,5 +16,6 @@
 }
 .welcome-tab-text-ctn .desc{
     color: #7a7878;
+    font-size: 1.5vh;
 }
 </style>
