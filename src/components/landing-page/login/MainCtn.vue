@@ -9,3 +9,7 @@ import WelcomeTab from '../WelcomeTab.vue';
         </div>
     </div>
 </template>
+
+<style scoped>
+
+</style>
