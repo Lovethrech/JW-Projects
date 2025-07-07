@@ -27,7 +27,7 @@ import MobileWelcomeIconCtn from "@/components/landing-page/MobileWelcomeIconCtn
 }
 @media screen and (max-width:890px){
     .mobile-welcome-icon-ctn{
-        display: block;
+        display: flex;
     }
 }
 </style>
