@@ -7,7 +7,7 @@ import WelcomeTabTextCtn from './WelcomeTabTextCtn.vue';
     <section class="welcome-tab">
         <div class="welcome-tab-mini-ctn">
             <WelcomeTabTextCtn></WelcomeTabTextCtn>
-            <WelcomeTabImgCtn
+            <WelcomeTabImgCtn></WelcomeTabImgCtn>
         </div>
     </section>
 </template>
