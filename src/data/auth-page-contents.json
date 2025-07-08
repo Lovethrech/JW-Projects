@@ -23,14 +23,62 @@
         "contents":[
             {
                 "id": "1",
-                "name": "firstname",
-                "nameFor": "firstname",
+                "name": "first name",
+                "nameFor": "firstName",
                 "nameType": "text"
             },
             {
                 "id": "2",
-                "name": "lastname",
-                "nameFor": "lastname",
+                "name": "last name",
+                "nameFor": "lastName",
+                "nameType": "text"
+            },
+            {
+                "id": "3",
+                "name": "email address",
+                "nameFor": "emailAddress",
+                "nameType": "email"
+            },
+            {
+                "id": "4",
+                "name": "phone number",
+                "nameFor": "phoneNumber",
+                "nameType": "number"
+            },
+            {
+                "id": "5",
+                "name": "password",
+                "nameFor": "password",
+                "nameType": "password"
+            },
+            {
+                "id": "6",
+                "name": "confirm password",
+                "nameFor": "confirmPassword",
+                "nameType": "password"
+            },
+            {
+                "id": "7",
+                "name": "business name",
+                "nameFor": "businessName",
+                "nameType": "text"
+            },
+            {
+                "id": "8",
+                "name": "business type",
+                "nameFor": "businessType",
+                "nameType": "text"
+            },
+            {
+                "id": "9",
+                "name": "inventory size",
+                "nameFor": "inventorySize",
+                "nameType": "number"
+            },
+            {
+                "id": "10",
+                "name": "Preferred alert channel",
+                "nameFor": "preferresAlertChannel",
                 "nameType": "text"
             }
         ]
