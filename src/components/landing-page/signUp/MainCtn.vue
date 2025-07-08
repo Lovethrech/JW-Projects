@@ -1,13 +1,5 @@
 <script setup>
-
-</script>
-
-<template>
-    
-</template>
-
-<!-- <script setup>
-import WelcomeTabMainCtn from '@/components/landing-page/WelcomeTabMainCtn.vue';
+import WelcomeTabMainCtn from '../WelcomeTabMainCtn.vue';
 import ContentCtn from './ContentCtn.vue';
 </script>
 
@@ -32,4 +24,4 @@ import ContentCtn from './ContentCtn.vue';
         width:200vw;
     }
 }
-</style> -->
+</style>
