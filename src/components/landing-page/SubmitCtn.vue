@@ -6,13 +6,13 @@ console.log(nameLink)
 </script>
 
 <template>
-    <div class="submit-ctn">
-        <RouterLink :to="nameLink" class="link">
+    <RouterLink :to="nameLink" class="link">
+        <div class="submit-ctn">
             <button :type="nameType" class="submit-ctn-link-button">
                 {{ name }}
             </button>
-        </RouterLink>
-    </div>
+        </div>
+    </RouterLink>
 </template>
 
 <style scoped>
