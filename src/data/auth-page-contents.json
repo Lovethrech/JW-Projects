@@ -1,0 +1,38 @@
+[
+    {
+        "id":"1",
+        "name":"login",
+        "contents":[
+            {
+                "id": "1",
+                "name": "email",
+                "nameFor": "email",
+                "nameType": "email"
+            },
+            {
+                "id": "2",
+                "name": "password",
+                "nameFor": "password",
+                "nameType": "password"
+            }
+        ]
+    },
+    {
+        "id":"2",
+        "name":"signUp",
+        "contents":[
+            {
+                "id": "1",
+                "name": "firstname",
+                "nameFor": "firstname",
+                "nameType": "text"
+            },
+            {
+                "id": "2",
+                "name": "lastname",
+                "nameFor": "lastname",
+                "nameType": "text"
+            }
+        ]
+    }
+]
