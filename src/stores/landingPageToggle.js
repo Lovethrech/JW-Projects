@@ -1,11 +1,11 @@
 import { ref } from 'vue';
 import { defineStore } from 'pinia';
 
-export const useSideNavColorStore = defineStore('sideNavColor', () => {
+export const useWelcomeTabToggleStore = defineStore('welcomeTabToggle', () => {
     const defaultMargin = "0";
     const activeMargin = "-100vw";
 
-    const WelcomeTabActive = ref({ marginRight: activeMargin});
+    const WelcomeTabActive = ref({ marginLeft: activeMargin});
         const resetMargin = () => {
         WelcomeTabActive.value.marginRight = defaultMargin;
     };

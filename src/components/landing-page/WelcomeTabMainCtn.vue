@@ -1,10 +1,13 @@
 <script setup>
+import { useWelcomeTabToggleStore } from '@/stores/landingPageToggle';
 import WelcomeTabContentCtn from './WelcomeTabContentCtn.vue';
 import MobileWelcomeIconCtn from './MobileWelcomeIconCtn.vue';
+
+const { WelcomeTabActive }= useWelcomeTabToggleStore();
 </script>
 
 <template>
-    <div class="welcome-tab-main-ctn">
+    <div class="welcome-tab-main-ctn" :style="[WelcomeTabActive]">
         <div class="welcome-tab-main-ctn-mini-ctn">
             <WelcomeTabContentCtn></WelcomeTabContentCtn>
             <MobileWelcomeIconCtn class="mobile-welcome-icon-ctn"></MobileWelcomeIconCtn>
@@ -33,7 +36,6 @@ import MobileWelcomeIconCtn from './MobileWelcomeIconCtn.vue';
 @media screen and (max-width:890px){
     .welcome-tab-main-ctn{
         width:100vw;
-        margin-left:-100vw;
     }
     .mobile-welcome-icon-ctn{
         display: flex;
