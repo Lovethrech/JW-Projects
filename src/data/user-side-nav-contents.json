@@ -1,0 +1,44 @@
+[
+    {
+        "id":"1",
+        "name":"home",
+        "icon":"",
+        "iconName":"",
+        "link":"/home",
+        "contents":[
+            {
+                "id":"1",
+                "name":"add item",
+                "link":""
+            },
+            {
+                "id":"2",
+                "name":"item list",
+                "link":""
+            },
+            {
+                "id":"3",
+                "name":"expired item",
+                "link":""
+            }
+        ]
+    },
+    {
+        "id":"2",
+        "name":"integrate software",
+        "icon":"",
+        "iconName":""
+    },
+    {
+        "id":"3",
+        "name":"data report",
+        "icon":"",
+        "iconName":""
+    },
+    {
+        "id":"4",
+        "name":"settings",
+        "icon":"",
+        "iconName":""
+    }
+]
