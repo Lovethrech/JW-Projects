@@ -13,8 +13,8 @@ import InputCtn from './InputCtn.vue';
 
 <style scoped>
 .content-ctn{
+    width:100%;
     display:flex;
     justify-content: center;
-    place-items:center;
 }
 </style>
