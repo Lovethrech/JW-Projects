@@ -2,7 +2,7 @@
 import authPageContents from '@/data/auth-page-contents.json';
 import ContentDescCtn from './ContentDescCtn.vue';
 import InputCtn from './InputCtn.vue';
-import SubmitCtn from './SubmitCtn.vue';
+import SubmitCtn from '../SubmitCtn.vue';
 </script>
 
 <template>

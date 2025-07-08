@@ -50,7 +50,7 @@
                 "id": "4",
                 "name": "phone number",
                 "nameFor": "phoneNumber",
-                "nameType": "number"
+                "nameType": "text"
             },
             {
                 "id": "5",
