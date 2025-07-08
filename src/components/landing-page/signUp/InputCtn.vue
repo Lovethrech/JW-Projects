@@ -33,7 +33,7 @@ const {name, nameFor,nameType}=defineProps(['name', 'nameFor', 'nameType']);
     width:100%;
     height:40px;
     font-size:20px;
-    border:0;
-    border-bottom: 2px solid #cecaca;
+    border: 2px solid #cecaca;
+    border-radius: 10px;
 }
 </style>
