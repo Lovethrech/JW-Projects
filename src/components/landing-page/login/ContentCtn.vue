@@ -15,7 +15,8 @@ import InputCtn from './InputCtn.vue';
                     :nameType="authPageContents[0].contents[0].nameType"
                 >
                 </InputCtn>
-                <br>
+                <br/>
+                <br/>
                 <InputCtn
                     :name="authPageContents[0].contents[1].name"
                     :nameFor="authPageContents[0].contents[1].nameFor"
@@ -49,6 +50,9 @@ import InputCtn from './InputCtn.vue';
         width:100vw;
         justify-content: left;
         padding:0 4vw;
+    }
+    .content-ctn-mini-ctn{
+        width:100%;
     }
 }
 </style>

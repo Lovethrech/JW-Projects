@@ -17,8 +17,9 @@
             },
             {
                 "id": "3",
-                "name": "Login",
+                "name": "login",
                 "nameFor": "loginBtn",
+                "nameType": "submit",
                 "link": "/home"
             }
         ]
@@ -86,6 +87,13 @@
                 "name": "Preferred alert channel",
                 "nameFor": "preferresAlertChannel",
                 "nameType": "text"
+            },
+            {
+                "id": "11",
+                "name": "sign up",
+                "nameFor": "signUpBtn",
+                "nameType": "submit",
+                "link": "/home"
             }
         ]
     }
