@@ -29,5 +29,12 @@ const {name, nameFor, nameType, nameLink}=defineProps(['name', 'nameFor', 'nameT
     font-size:20px;
     border:0;
     text-transform: capitalize;
+    letter-spacing:2px;
+}
+.submit-ctn:hover{
+    cursor:pointer;
+    background-color: #000000;
+    transform:scaleX(0.99);
+    transition: all .8s;
 }
 </style>
