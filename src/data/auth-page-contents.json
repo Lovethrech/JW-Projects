@@ -14,6 +14,12 @@
                 "name": "password",
                 "nameFor": "password",
                 "nameType": "password"
+            },
+            {
+                "id": "3",
+                "name": "Login",
+                "nameFor": "loginBtn",
+                "link": "/home"
             }
         ]
     },
