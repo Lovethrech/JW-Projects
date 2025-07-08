@@ -22,7 +22,7 @@ import InputCtn from './InputCtn.vue';
 }
 .content-ctn-mini-ctn{
     width:60%;
-    min-height:60vh;
+    min-height:80vh;
 }
 
 @media screen and (max-width:890px){
