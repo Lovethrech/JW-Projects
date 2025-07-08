@@ -16,7 +16,7 @@
     flex-direction:column;
 }
 .input-ctn-name{
-
+    color:#777676;
 }
 .input-ctn input{
     width:100%;

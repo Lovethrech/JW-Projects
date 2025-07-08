@@ -1,4 +1,5 @@
 <script setup>
+import authPageContents from '@/data/auth-page-contents.json';
 import ContentDescCtn from './ContentDescCtn.vue';
 import InputCtn from './InputCtn.vue';
 </script>
@@ -8,7 +9,10 @@ import InputCtn from './InputCtn.vue';
         <div class="content-ctn-mini-ctn">
             <ContentDescCtn></ContentDescCtn>
             <form class="form">
-                <InputCtn></InputCtn>
+                <InputCtn
+                    :name="authPageContents[0].contents[0].name"
+                >
+                </InputCtn>
             </form>
         </div>
     </div>
