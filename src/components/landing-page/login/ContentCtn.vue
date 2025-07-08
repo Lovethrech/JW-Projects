@@ -2,6 +2,7 @@
 import authPageContents from '@/data/auth-page-contents.json';
 import ContentDescCtn from './ContentDescCtn.vue';
 import InputCtn from './InputCtn.vue';
+import SubmitCtn from './SubmitCtn.vue';
 </script>
 
 <template>
@@ -23,6 +24,11 @@ import InputCtn from './InputCtn.vue';
                     :nameType="authPageContents[0].contents[1].nameType"
                 >
                 </InputCtn>
+
+                <SubmitCtn
+                    :name="authPageContents[0].contents[2].name"
+                >
+                </SubmitCtn>
             </form>
         </div>
     </div>

@@ -20,7 +20,7 @@
                 "name": "login",
                 "nameFor": "loginBtn",
                 "nameType": "submit",
-                "link": "/home"
+                "nameLink": "/home"
             }
         ]
     },
@@ -93,7 +93,7 @@
                 "name": "sign up",
                 "nameFor": "signUpBtn",
                 "nameType": "submit",
-                "link": "/home"
+                "NameLink": "/home"
             }
         ]
     }
