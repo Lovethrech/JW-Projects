@@ -11,6 +11,8 @@ import InputCtn from './InputCtn.vue';
             <form class="form">
                 <InputCtn
                     :name="authPageContents[0].contents[0].name"
+                    :nameFor="authPageContents[0].contents[0].nameFor"
+                    :nameType="authPageContents[0].contents[0].nameType"
                 >
                 </InputCtn>
             </form>
