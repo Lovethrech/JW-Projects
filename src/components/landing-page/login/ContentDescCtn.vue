@@ -5,7 +5,7 @@
                 Login
             </h1>
             <p class="desc">
-                Have an account with us? <RouterLink to="/signUp">Sign up</RouterLink>
+                Have no account with us? <RouterLink to="/signUp">Sign up</RouterLink>
             </p>
         </div>
     </div>
