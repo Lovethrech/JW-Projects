@@ -6,6 +6,7 @@ main{
 }
 
 /* LANDING PAGE AUTHENTICATION COMPONENTS: LOGIN AND SIGNUP PAGE  */
+/* START  */
 /* MAIN CONTAINER COMPONENTS  */
 .main-ctn-mini-ctn{
   width:100%;
@@ -65,7 +66,6 @@ main{
     width:100%;
   }
 }
-
 /* CONTENT CONTAINER DESCRIPTION COMPONENTS  */
 .content-desc-ctn .content-desc-ctn-mini-ctn .title{
   color: #1e1e1e;
@@ -82,3 +82,4 @@ main{
 .content-desc-ctn .content-desc-ctn-mini-ctn .title, .content-desc-ctn .content-desc-ctn-mini-ctn .desc{
   text-align: left;
 }
+/* END  */
