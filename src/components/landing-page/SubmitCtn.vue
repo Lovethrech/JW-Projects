@@ -26,7 +26,8 @@ const {name, nameFor, nameType, nameLink}=defineProps(['name', 'nameFor', 'nameT
 .submit-ctn-link-button{
     background-color: transparent;
     color:#ffffff;
-    font-size:20px;
+    font-size:16px;
+    font-weight:400;
     border:0;
     text-transform: capitalize;
     letter-spacing:2px;

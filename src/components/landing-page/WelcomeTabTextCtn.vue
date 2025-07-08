@@ -14,6 +14,8 @@
     font-size:3.33vh;
     font-weight:700;
     font-style: bold;
+    padding:5px 5px 5px 0;
+    margin-bottom: 10px;
 }
 .welcome-tab-text-ctn .desc{
     color: #000000;
