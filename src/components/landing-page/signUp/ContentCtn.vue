@@ -58,33 +58,37 @@ import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
                     </InputCtn>
                 </div>
                 <br/>
-                <InputCtn
-                    :name="authPageContents[1].contents[6].name"
-                    :nameFor="authPageContents[1].contents[6].nameFor"
-                    :nameType="authPageContents[1].contents[6].nameType"
-                >
-                </InputCtn>
+                <div>
+                    <InputCtn
+                        :name="authPageContents[1].contents[6].name"
+                        :nameFor="authPageContents[1].contents[6].nameFor"
+                        :nameType="authPageContents[1].contents[6].nameType"
+                    >
+                    </InputCtn>
+                    <br/>
+                    <InputCtn
+                        :name="authPageContents[1].contents[7].name"
+                        :nameFor="authPageContents[1].contents[7].nameFor"
+                        :nameType="authPageContents[1].contents[7].nameType"
+                    >
+                    </InputCtn>
+                </div>
                 <br/>
-                <InputCtn
-                    :name="authPageContents[1].contents[7].name"
-                    :nameFor="authPageContents[1].contents[7].nameFor"
-                    :nameType="authPageContents[1].contents[7].nameType"
-                >
-                </InputCtn>
-                <br/>
-                <InputCtn
-                    :name="authPageContents[1].contents[8].name"
-                    :nameFor="authPageContents[1].contents[8].nameFor"
-                    :nameType="authPageContents[1].contents[8].nameType"
-                >
-                </InputCtn>
-                <br/>
-                <InputCtn
-                    :name="authPageContents[1].contents[9].name"
-                    :nameFor="authPageContents[1].contents[9].nameFor"
-                    :nameType="authPageContents[1].contents[9].nameType"
-                >
-                </InputCtn>
+                <div>
+                    <InputCtn
+                        :name="authPageContents[1].contents[8].name"
+                        :nameFor="authPageContents[1].contents[8].nameFor"
+                        :nameType="authPageContents[1].contents[8].nameType"
+                    >
+                    </InputCtn>
+                    <br/>
+                    <InputCtn
+                        :name="authPageContents[1].contents[9].name"
+                        :nameFor="authPageContents[1].contents[9].nameFor"
+                        :nameType="authPageContents[1].contents[9].nameType"
+                    >
+                    </InputCtn>
+                </div>
                 <br/>
                 <br/>
                 <SubmitCtn
