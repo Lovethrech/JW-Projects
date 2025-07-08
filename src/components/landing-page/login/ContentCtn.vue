@@ -54,7 +54,6 @@ import SubmitCtn from './SubmitCtn.vue';
 .form{
     margin-top:4vh;
 }
-
 @media screen and (max-width:890px){
     .content-ctn{
         width:100vw;
