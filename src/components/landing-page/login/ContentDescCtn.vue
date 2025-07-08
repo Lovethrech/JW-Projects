@@ -10,3 +10,13 @@
         </div>
     </div>
 </template>
+
+<style scoped>
+.content-desc-ctn .content-desc-ctn-mini-ctn .title{
+    font-size:3.5vh;
+    font-weight:800;
+}
+.content-desc-ctn .content-desc-ctn-mini-ctn .title, .content-desc-ctn .content-desc-ctn-mini-ctn .desc{
+    text-align: left;
+}
+</style>

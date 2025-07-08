@@ -14,7 +14,14 @@ import InputCtn from './InputCtn.vue';
 <style scoped>
 .content-ctn{
     width:100%;
+    min-height:100vh;
     display:flex;
+    place-items: center;
     justify-content: center;
+    
+}
+.content-ctn-mini-ctn{
+    width:60%;
+    min-height:60vh;
 }
 </style>
