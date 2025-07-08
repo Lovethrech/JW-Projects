@@ -10,7 +10,7 @@ import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
         <div class="content-ctn-mini-ctn">
             <ContentDescCtn></ContentDescCtn>
             <form class="form">
-                <div>
+                <div class="form-div">
                     <InputCtn
                         :name="authPageContents[1].contents[0].name"
                         :nameFor="authPageContents[1].contents[0].nameFor"
@@ -26,7 +26,7 @@ import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
                     </InputCtn>
                 </div>                
                 <br/>
-                <div>
+                <div class="form-div">
                     <InputCtn
                         :name="authPageContents[1].contents[2].name"
                         :nameFor="authPageContents[1].contents[2].nameFor"
@@ -42,7 +42,7 @@ import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
                     </InputCtn>
                 </div>
                 <br/>
-                <div>
+                <div class="form-div">
                     <InputCtn
                         :name="authPageContents[1].contents[4].name"
                         :nameFor="authPageContents[1].contents[4].nameFor"
@@ -58,7 +58,7 @@ import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
                     </InputCtn>
                 </div>
                 <br/>
-                <div>
+                <div class="form-div">
                     <InputCtn
                         :name="authPageContents[1].contents[6].name"
                         :nameFor="authPageContents[1].contents[6].nameFor"
@@ -74,7 +74,7 @@ import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
                     </InputCtn>
                 </div>
                 <br/>
-                <div>
+                <div class="form-div">
                     <InputCtn
                         :name="authPageContents[1].contents[8].name"
                         :nameFor="authPageContents[1].contents[8].nameFor"
@@ -89,7 +89,6 @@ import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
                     >
                     </InputCtn>
                 </div>
-                <br/>
                 <br/>
                 <SubmitCtn
                     :name="authPageContents[1].contents[10].name"
@@ -107,9 +106,16 @@ import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
 .content-ctn-mini-ctn{
     margin:5vh 4vw;
 }
-.form{
+.form, .form-div{
     display: flex;
-    flex-wrap: wrap;
-    gap:20px;
+    flex-wrap: nowrap;
+}
+.form{
+    flex-direction: column;
+    gap:10px;
+}
+.form-div{
+    flex-direction: row;
+    justify-content: space-between;
 }
 </style>

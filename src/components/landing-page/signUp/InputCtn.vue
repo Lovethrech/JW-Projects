@@ -21,6 +21,6 @@ const {name, nameFor,nameType}=defineProps(['name', 'nameFor', 'nameType']);
 
 <style scoped>
 .input-ctn{
-    width: 300px;
+    width: 45%;
 }
 </style>
