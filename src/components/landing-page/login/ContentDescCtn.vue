@@ -17,7 +17,9 @@
     font-weight:800;
 }
 .content-desc-ctn .content-desc-ctn-mini-ctn .desc{
-    font-weight:500;
+    padding-left: 2px;
+    font-size: 16px;
+    font-weight: 300;
 }
 .content-desc-ctn .content-desc-ctn-mini-ctn .title, .content-desc-ctn .content-desc-ctn-mini-ctn .desc{
     text-align: left;
