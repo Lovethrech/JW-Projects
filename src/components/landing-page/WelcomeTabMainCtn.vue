@@ -19,7 +19,7 @@ const { WelcomeTabActive }= useWelcomeTabToggleStore();
 .welcome-tab-main-ctn{
     background-color: #f0eded;
     height:100vh;
-    width: 30vw;
+    width: 40vw;
 }
 .welcome-tab-main-ctn-mini-ctn{
     width:100%;

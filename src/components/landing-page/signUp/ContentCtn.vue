@@ -80,6 +80,7 @@ import SubmitCtn from './SubmitCtn.vue';
                 >
                 </InputCtn>
                 <br/>
+                <br/>
                 <SubmitCtn
                     :name="authPageContents[1].contents[10].name"
                     :nameFor="authPageContents[1].contents[10].nameFor"
@@ -108,6 +109,9 @@ import SubmitCtn from './SubmitCtn.vue';
 }
 .form{
     margin-top:4vh;
+    display:flex;
+    flex-wrap: wrap;
+    gap:20px;
 }
 @media screen and (max-width:890px){
     .content-ctn{
