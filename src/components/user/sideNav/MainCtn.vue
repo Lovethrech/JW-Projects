@@ -25,7 +25,7 @@ import BtmNav from './BtmNav.vue';
     position:fixed;
     background-color: #d9d9d9 ;
     height:100vh;
-    width: 15vw;
+    width: 300px;
 }
 .main-ctn-mini-ctn{
     width:100%;

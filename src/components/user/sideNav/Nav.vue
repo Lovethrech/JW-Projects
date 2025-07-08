@@ -26,7 +26,6 @@ const { name, icon, iconName, link }=defineProps(['name', 'icon', 'iconName', 'l
     justify-content: center;
 }
 .user-side-nav-nav-main-ctn-mini-ctn{
-    background-color: #ffffff;
     width:70%;
     padding:10px;
     display:flex;
