@@ -13,6 +13,6 @@ import Logo from '@/components/Logo.vue';
 
 <style scoped>
 .user-side-nav-top-nav{
-    padding:10px 20px;
+    padding:10px 40px;
 }
 </style>

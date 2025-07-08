@@ -27,18 +27,21 @@
         "id":"2",
         "name":"integrate software",
         "icon":"",
-        "iconName":""
+        "iconName":"", 
+        "link":"/home"
     },
     {
         "id":"3",
         "name":"data report",
         "icon":"",
-        "iconName":""
+        "iconName":"",
+        "link":"/home"
     },
     {
         "id":"4",
         "name":"settings",
         "icon":"",
-        "iconName":""
+        "iconName":"",
+        "link":"/home"
     }
 ]

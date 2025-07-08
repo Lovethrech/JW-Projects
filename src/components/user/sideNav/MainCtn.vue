@@ -27,8 +27,11 @@ import BtmNav from './BtmNav.vue';
     height:100vh;
     width: 15vw;
 }
-.amin-ctn-mini-ctn{
+.main-ctn-mini-ctn{
     width:100%;
     height:100%;
+}
+.nav-contents{
+    margin:5vh 0;
 }
 </style>
