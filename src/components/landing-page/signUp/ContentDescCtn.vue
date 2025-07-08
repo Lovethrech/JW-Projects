@@ -13,7 +13,7 @@
 
 <style scoped>
 .content-desc-ctn .content-desc-ctn-mini-ctn .title{
-    font-size:3.5vh;
+    font-size:3.33vh;
     font-weight:700;
     padding:5px 5px 5px 0;
     margin-bottom: 10px;
