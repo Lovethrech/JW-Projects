@@ -11,12 +11,14 @@
 
 <style scoped>
 .welcome-tab-text-ctn .title{
-    font-size:4vh;
-    font-weight:800;
+    font-size:3.33vh;
+    font-weight:700;
+    font-style: bold;
 }
 .welcome-tab-text-ctn .desc{
-    color: #7a7878;
-    font-size: 1.5vh;
+    color: #000000;
+    font-size: 1.48vh;
+    line-height:25px;
 }
 
 @media screen and (max-width:890px){

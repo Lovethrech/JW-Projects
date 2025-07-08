@@ -13,13 +13,14 @@
 
 <style scoped>
 .content-desc-ctn .content-desc-ctn-mini-ctn .title{
-    font-size:3.5vh;
-    font-weight:800;
+    color: #1e1e1e;
+    font-size:3.33vh;
+    font-weight:700;
 }
 .content-desc-ctn .content-desc-ctn-mini-ctn .desc{
     padding-left: 2px;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
 }
 .content-desc-ctn .content-desc-ctn-mini-ctn .title, .content-desc-ctn .content-desc-ctn-mini-ctn .desc{
     text-align: left;

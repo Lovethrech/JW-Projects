@@ -17,7 +17,7 @@ const { WelcomeTabActive }= useWelcomeTabToggleStore();
 
 <style scoped>
 .welcome-tab-main-ctn{
-    background-color: #f0eded;
+    background-color: #d9d9d9 ;
     height:100vh;
     width: 40vw;
 }

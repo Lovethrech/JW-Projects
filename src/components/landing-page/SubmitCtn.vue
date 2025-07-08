@@ -17,7 +17,7 @@ const {name, nameFor, nameType, nameLink}=defineProps(['name', 'nameFor', 'nameT
 <style scoped>
 .submit-ctn{
     width:100%;
-    background-color: #7158FF;
+    background-color: #4d35d3;
     display:flex;
     justify-content: center;
     padding:10px;
