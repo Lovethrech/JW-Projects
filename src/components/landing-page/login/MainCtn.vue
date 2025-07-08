@@ -16,5 +16,7 @@ import ContentCtn from './ContentCtn.vue';
 .main-ctn-mini-ctn{
     width:100%;
     height:100%;
+    display:flex;
+    flex-direction: row;
 }
 </style>
