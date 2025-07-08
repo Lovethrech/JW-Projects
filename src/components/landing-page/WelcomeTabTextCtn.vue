@@ -18,7 +18,7 @@
     margin-bottom: 10px;
 }
 .welcome-tab-text-ctn .desc{
-    color: #000000;
+    color: hsla(0, 0%, 0%, 0.651);
     font-size: 1.48vh;
     line-height:25px;
 }
