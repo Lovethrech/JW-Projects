@@ -10,7 +10,7 @@ import MainCtn from '@/components/landing-page/login/MainCtn.vue';
 <style scoped>
 @media screen and (max-width:890px){
   main{
-    overflow-y: hidden;
+    overflow: hidden;
   }
 }
 </style>

@@ -18,10 +18,17 @@ import InputCtn from './InputCtn.vue';
     display:flex;
     place-items: center;
     justify-content: center;
-    
 }
 .content-ctn-mini-ctn{
     width:60%;
     min-height:60vh;
+}
+
+@media screen and (max-width:890px){
+    .content-ctn{
+        width:100vw;
+        justify-content: left;
+        padding:0 4vw;
+    }
 }
 </style>

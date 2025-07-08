@@ -33,6 +33,7 @@ import MobileWelcomeIconCtn from './MobileWelcomeIconCtn.vue';
 @media screen and (max-width:890px){
     .welcome-tab-main-ctn{
         width:100vw;
+        margin-left:-100vw;
     }
     .mobile-welcome-icon-ctn{
         display: flex;
