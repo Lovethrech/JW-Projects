@@ -10,21 +10,3 @@
         </div>
     </div>
 </template>
-
-<style scoped>
-.content-desc-ctn .content-desc-ctn-mini-ctn .title{
-    color: #1e1e1e;
-    font-size:3.33vh;
-    font-weight:700;
-    padding:5px 5px 5px 0;
-    margin-bottom: 10px;
-}
-.content-desc-ctn .content-desc-ctn-mini-ctn .desc{
-    padding-left: 2px;
-    font-size: 16px;
-    font-weight: 400;
-}
-.content-desc-ctn .content-desc-ctn-mini-ctn .title, .content-desc-ctn .content-desc-ctn-mini-ctn .desc{
-    text-align: left;
-}
-</style>
