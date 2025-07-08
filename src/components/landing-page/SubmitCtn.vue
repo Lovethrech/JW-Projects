@@ -2,7 +2,6 @@
 import {ref, defineProps} from "vue";
 
 const {name, nameFor, nameType, nameLink}=defineProps(['name', 'nameFor', 'nameType', 'nameLink']);
-console.log(nameLink)
 </script>
 
 <template>
