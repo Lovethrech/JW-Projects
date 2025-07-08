@@ -1,6 +1,6 @@
 <script setup>
-import WelcomeTabContentCtn from '../WelcomeTabContentCtn.vue';
-import MobileWelcomeIconCtn from "@/components/landing-page/MobileWelcomeIconCtn.vue";
+import WelcomeTabContentCtn from './WelcomeTabContentCtn.vue';
+import MobileWelcomeIconCtn from './MobileWelcomeIconCtn.vue';
 </script>
 
 <template>
@@ -13,6 +13,11 @@ import MobileWelcomeIconCtn from "@/components/landing-page/MobileWelcomeIconCtn
 </template>
 
 <style scoped>
+.welcome-tab-main-ctn{
+    background-color: #f0eded;
+    height:100vh;
+    width: 30vw;
+}
 .welcome-tab-main-ctn-mini-ctn{
     width:100%;
     height:100%;
@@ -26,6 +31,9 @@ import MobileWelcomeIconCtn from "@/components/landing-page/MobileWelcomeIconCtn
     display:none;
 }
 @media screen and (max-width:890px){
+    .welcome-tab-main-ctn{
+        width:100vw;
+    }
     .mobile-welcome-icon-ctn{
         display: flex;
     }

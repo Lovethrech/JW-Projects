@@ -1,12 +1,25 @@
 <script setup>
-import WelcomeTabContentCtn from '../WelcomeTabContentCtn.vue';
+import WelcomeTabMainCtn from '@/components/landing-page/WelcomeTabMainCtn.vue';
+</script>
+
+<template>
+    <div class="main-ctn">
+        <div class="main-ctn-mini-ctn">
+            <WelcomeTabMainCtn></WelcomeTabMainCtn>
+        </div>
+    </div>
+</template>
+
+
+<!-- <script setup>
+import WelcomeTabMainCtn from '@/components/landing-page/WelcomeTabMainCtn.vue';
 
 </script>
 
 <template>
     <div class="main-ctn">
         <div class="main-ctn-mini-ctn">
-            <WelcomeTabContentCtn></WelcomeTabContentCtn>
+            <WelcomeTabMainCtn></WelcomeTabMainCtn>
         </div>
     </div>
 </template>
@@ -15,5 +28,5 @@ import WelcomeTabContentCtn from '../WelcomeTabContentCtn.vue';
 .main-ctn-mini-ctn{
     width:100%;
     height:100%;
-}
-</style>
+} -->
+<!-- </style> -->

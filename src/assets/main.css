@@ -5,15 +5,3 @@
   padding:0;
   box-sizing: border-box;
 }
-
-/* MAIN CONTAINER IN LOGIN AND SIGNUP PAGE  */
-.welcome-tab-main-ctn{
-  background-color: #f0eded;
-  height:100vh;
-  width: 30vw;
-}
-@media screen and (max-width:890px){
-  .welcome-tab-main-ctn{
-    width:100vw;
-  }
-}
