@@ -1,12 +1,15 @@
 <script setup>
 import { ref, defineProps } from "vue";
 
-const {lname, nameFor,nameType}=defineProps(['name', 'nameFor', 'nameType']);
+const {name, nameFor,nameType}=defineProps(['name', 'nameFor', 'nameType']);
 </script>
 
 <template>
     <div class="input-ctn">
-        <label :for="nameFor" class="input-ctn-name">
+        <label 
+            :for="nameFor" 
+            class="input-ctn-name"
+        >
             {{name}}
         </label>
         <input 

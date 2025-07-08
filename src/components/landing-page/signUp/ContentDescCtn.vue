@@ -25,11 +25,3 @@
     text-align: left;
 }
 </style>
-
-<!-- <template>
-    
-</template>
-
-<style scoped>
-
-</style> -->
