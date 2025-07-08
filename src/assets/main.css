@@ -6,6 +6,18 @@ main{
 }
 
 /* LANDING PAGE AUTHENTICATION COMPONENTS: LOGIN AND SIGNUP PAGE  */
+/* MAIN CONTAINER COMPONENTS  */
+.main-ctn-mini-ctn{
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction: row;
+}
+@media screen and (max-width:890px){
+  .main-ctn-mini-ctn{
+    width:200vw;
+  }
+}
 /* INPUT COMPONENTS  */
 .input-ctn{
   display:flex;

@@ -22,7 +22,6 @@
     font-size: 1.48vh;
     line-height:25px;
 }
-
 @media screen and (max-width:890px){
     .welcome-tab-text-ctn{
         text-align:center
