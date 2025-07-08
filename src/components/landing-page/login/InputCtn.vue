@@ -1,17 +1,17 @@
 <script setup>
-import { ref, props } from "vue";
+import { ref, defineProps } from "vue";
 
 const {lname, nameFor,nameType}=defineProps(['name', 'nameFor', 'nameType']);
 </script>
 
 <template>
     <div class="input-ctn">
-        <label for="email" class="input-ctn-name">
-            Email
+        <label :for="nameFor" class="input-ctn-name">
+            {{name}}
         </label>
         <input 
-            id="email"
-            type="text"
+            :id="nameFor"
+            :type="nameType"
         />
     </div>
 </template>
@@ -23,6 +23,7 @@ const {lname, nameFor,nameType}=defineProps(['name', 'nameFor', 'nameType']);
 }
 .input-ctn-name{
     color:#777676;
+    text-transform: capitalize;
 }
 .input-ctn input{
     width:100%;
