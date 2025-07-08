@@ -1,15 +1,21 @@
+<script setup>
+import TopNav from './TopNav.vue';
+import MainNavCtn from './MainNavCtn.vue';
+import BtmNav from './BtmNav.vue';
+</script>
+
 <template>
     <div class="main-ctn">
         <div class="main-ctn-mini-ctn">
             <section class="top-section">
                 <header>
-
+                    <TopNav></TopNav>
                 </header>
                 <section class="nav-contents">
-
+                    <MainNavCtn></MainNavCtn>
                 </section>
             </section>
-
+            <BtmNav></BtmNav>
         </div>
     </div>
 </template>
