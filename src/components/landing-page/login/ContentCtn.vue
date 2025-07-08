@@ -7,7 +7,7 @@ import InputCtn from './InputCtn.vue';
     <div class="content-ctn">
         <div class="content-ctn-mini-ctn">
             <ContentDescCtn></ContentDescCtn>
-            <form>
+            <form class="form">
                 <InputCtn></InputCtn>
             </form>
         </div>
