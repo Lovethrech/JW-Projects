@@ -1,12 +1,4 @@
 <script setup>
-
-</script>
-
-<template>
-    
-</template>
-
-<!-- <script setup>
 import authPageContents from '@/data/auth-page-contents.json';
 import ContentDescCtn from './ContentDescCtn.vue';
 import InputCtn from './InputCtn.vue';
@@ -72,4 +64,4 @@ import SubmitCtn from './SubmitCtn.vue';
         width:100%;
     }
 }
-</style> -->
+</style>
