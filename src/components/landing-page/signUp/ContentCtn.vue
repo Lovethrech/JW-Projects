@@ -94,21 +94,10 @@ import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
 </template>
 
 <style scoped>
-.content-ctn{
-    background-color: #ffffff;
-    width:100%;
-    min-height:100vh;
-    display:flex;
-    place-items: center;
-    justify-content: center;
-}
 .content-ctn-mini-ctn{
-    width:60%;
-    min-height:70vh;
     margin:5vh 4vw;
 }
 .form{
-    margin-top:4vh;
     display:flex;
     flex-wrap: wrap;
     gap:20px;

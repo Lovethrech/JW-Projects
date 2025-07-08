@@ -6,18 +6,35 @@ main{
 }
 
 /* LANDING PAGE AUTHENTICATION COMPONENTS: LOGIN AND SIGNUP PAGE  */
+/* INPUT COMPONENTS  */
 .input-ctn{
-    display:flex;
-    flex-direction:column;
+  display:flex;
+  flex-direction:column;
 }
 .input-ctn-name{
-    color:#777676;
-    text-transform: capitalize;
+  color:#777676;
+  text-transform: capitalize;
 }
 .input-ctn input{
-    width:100%;
-    height:40px;
-    font-size:20px;
-    border: 2px solid #cecaca;
-    border-radius: 10px;
+  width:100%;
+  height:40px;
+  font-size:20px;
+  border: 2px solid #cecaca;
+  border-radius: 10px;
+}
+/* CONTENT CONTAINER COMPONENTS  */
+.content-ctn{
+  background-color: #ffffff;
+  width:100%;
+  min-height:100vh;
+  display:flex;
+  place-items: center;
+  justify-content: center;
+}
+.content-ctn-mini-ctn{
+    width:60%;
+    min-height:70vh;
+}
+.form{
+    margin-top:4vh;
 }
