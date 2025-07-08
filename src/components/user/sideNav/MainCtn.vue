@@ -21,4 +21,8 @@
     height:100vh;
     width: 15vw;
 }
+.amin-ctn-mini-ctn{
+    width:100%;
+    height:100%;
+}
 </style>
