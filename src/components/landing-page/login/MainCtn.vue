@@ -19,4 +19,9 @@ import ContentCtn from './ContentCtn.vue';
     display:flex;
     flex-direction: row;
 }
+@media screen and (max-width:890px){
+    .main-ctn-mini-ctn{
+        width:200vw;
+    }
+}
 </style>
