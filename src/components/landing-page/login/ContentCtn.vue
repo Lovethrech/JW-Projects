@@ -37,16 +37,3 @@ import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
         </div>
     </div>
 </template>
-
-<style scoped>
-@media screen and (max-width:890px){
-    .content-ctn{
-        width:100vw;
-        justify-content: left;
-        padding:0 4vw;
-    }
-    .content-ctn-mini-ctn{
-        width:100%;
-    }
-}
-</style>

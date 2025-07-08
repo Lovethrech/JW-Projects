@@ -18,3 +18,8 @@ const {name, nameFor,nameType}=defineProps(['name', 'nameFor', 'nameType']);
         />
     </div>
 </template>
+
+<style scoped>
+.input-ctn{
+}
+</style>
