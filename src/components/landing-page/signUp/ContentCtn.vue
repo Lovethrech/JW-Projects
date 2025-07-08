@@ -104,6 +104,7 @@ import SubmitCtn from './SubmitCtn.vue';
 .content-ctn-mini-ctn{
     width:60%;
     min-height:70vh;
+    margin:5vh 4vw;
 }
 .form{
     margin-top:4vh;
