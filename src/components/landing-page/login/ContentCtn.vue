@@ -27,6 +27,9 @@ import InputCtn from './InputCtn.vue';
     width:60%;
     min-height:80vh;
 }
+.form{
+    margin-top:4vh;
+}
 
 @media screen and (max-width:890px){
     .content-ctn{

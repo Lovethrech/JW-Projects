@@ -12,7 +12,17 @@
 
 <style scoped>
 .input-ctn{
+    display:flex;
+    flex-direction:column;
+}
+.input-ctn-name{
 
 }
-
+.input-ctn input{
+    width:100%;
+    height:40px;
+    font-size:20px;
+    border:0;
+    border-bottom: 2px solid #cecaca;
+}
 </style>
