@@ -10,3 +10,11 @@ import InputCtn from './InputCtn.vue';
         </div>
     </div>
 </template>
+
+<style scoped>
+.content-ctn{
+    display:flex;
+    justify-content: center;
+    place-items:center;
+}
+</style>
