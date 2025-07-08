@@ -41,6 +41,8 @@
   font-weight: normal;
   outline: none;
   scroll-behavior: smooth;
+  text-decoration: none;
+  list-style: none;
 }
 
 body {
