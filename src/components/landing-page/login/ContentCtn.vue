@@ -24,9 +24,13 @@ import SubmitCtn from './SubmitCtn.vue';
                     :nameType="authPageContents[0].contents[1].nameType"
                 >
                 </InputCtn>
-
+                <br/>
+                <br/>
                 <SubmitCtn
                     :name="authPageContents[0].contents[2].name"
+                    :nameFor="authPageContents[0].contents[2].nameFor"
+                    :nameType="authPageContents[0].contents[2].nameType"
+                    :nameLink="authPageContents[0].contents[2].nameLink"
                 >
                 </SubmitCtn>
             </form>
