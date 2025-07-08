@@ -1,6 +1,12 @@
+<script setup>
+import { useWelcomeTabToggleStore } from '@/stores/landingPageToggle';
+
+const { shiftTab }= useWelcomeTabToggleStore();
+</script>
+
 <template>
     <div class="mobile-welcome-icon-ct">
-        <div class="mobile-welcome-icon-ct-mini-ctn">
+        <div class="mobile-welcome-icon-ct-mini-ctn" :onClick="shiftTab">
             <img src="@/components/Icons/arrow-small-right.svg" alt="/welcome tab icon">
         </div>
     </div>
@@ -16,6 +22,7 @@
     width:30px;
 }
 .mobile-welcome-icon-ct-mini-ctn:hover{
+    cursor:pointer;
     transform:scaleX(1.3);
     transition: all .65s;
 }
