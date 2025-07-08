@@ -49,7 +49,7 @@ import SubmitCtn from './SubmitCtn.vue';
 }
 .content-ctn-mini-ctn{
     width:60%;
-    min-height:80vh;
+    min-height:70vh;
 }
 .form{
     margin-top:4vh;
