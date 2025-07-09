@@ -2,7 +2,7 @@
     <div class="user-search-ctn-main-ctn">
         <div class="user-search-ctn-mini-ctn">
             <div class="user-search-ctn-main-ctn-icon-ctn">
-                <img src="@/components/Icons/search-icon.svg" alt="">
+                <i class="ri-search-line"></i>
             </div>
             <input type="text" placeholder="Search for item" class="user-search-ctn-mini-ctn-input"/>
         </div>

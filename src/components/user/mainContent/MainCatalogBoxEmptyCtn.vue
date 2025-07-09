@@ -2,7 +2,7 @@
     <div class="main-catalog-box-empty-ctn-main-ctn">
         <div class="main-catalog-box-empty-ctn-mini-ctn">
             <div class="main-catalog-box-empty-ctn-mini-ctn-icon-ctn">
-                <img src="@/components/Icons/add-folder.svg" alt="">
+                <i class="ri-folder-add-line"></i>
             </div>
             <p class="main-catalog-box-empty-ctn-mini-ctn-icon-desc">
                 Tap on field to Add item

@@ -12,7 +12,7 @@ const {showUserAdditemOverlayActiveState, showUserAdditemOverlayDefaultState}=us
                 Add Item
             </p>
             <div class="user-main-content-add-item-tab-main-ctn-icon-ctn" @click="showUserAdditemOverlayActiveState">
-                <img src="@/components/Icons/add-item-icon.svg" alt=""/>
+                <i class="ri-folder-add-line"></i>
             </div>
         </div>
     </div>

@@ -2,7 +2,7 @@
     <div class="lhs-content-ctn-main-ctn">
         <div class="lhs-content-ctn-mini-ctn">
             <div class="product-overview-icon">
-                <img src="@/components/Icons/overview-icon.svg" alt=""/>
+                <i class="ri-dashboard-horizontal-fill"></i>
             </div>
             <p class="lhs-content-ctn-main-ctn-title">
                 Product view
