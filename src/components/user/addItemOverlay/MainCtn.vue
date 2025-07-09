@@ -45,4 +45,7 @@ import UserAddItemOverlayInputMainCtn from "@/components/user/addItemOverlay/Ove
 .user-add-item-overlay-main-ctn-mini-ctn-modal-desc{
     font-size: 14px;
 }
+.user-add-item-overlay-main-ctn-mini-ctn-form{
+    margin: 30px 0;
+}
 </style>
