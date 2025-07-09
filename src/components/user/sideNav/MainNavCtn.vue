@@ -15,14 +15,14 @@ import Nav from './Nav.vue';
             </Nav>
             <Nav
                 :name="userSideNavContents[1].name"
-                :img="userSideNavContents[0].img"
+                :img="userSideNavContents[1].img"
                 :iconName="userSideNavContents[1].iconName"
                 :link="userSideNavContents[1].link"
             >
             </Nav>
             <Nav
                 :name="userSideNavContents[2].name"
-                :img="userSideNavContents[0].img"
+                :img="userSideNavContents[2].img"
                 :iconName="userSideNavContents[2].iconName"
                 :link="userSideNavContents[2].link"
             >

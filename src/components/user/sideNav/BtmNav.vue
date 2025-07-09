@@ -8,10 +8,7 @@ const { name, img, iconName, link }=defineProps(['name', 'img', 'iconName', 'lin
     <RouterLink :to="link" class="link">
         <div class="user-side-nav-btm-nav-main-ctn">
             <div class="user-side-nav-btm-nav-main-ctn-mini-ctn">
-                <div class="user-side-nav-btm-nav-main-ctn-icon-ctn">
-                    <img :src="img" />
-                    <!-- // :alt="iconName" -->
-                </div>
+                <div class="user-side-nav-btm-nav-main-ctn-icon-ctn" v-html="img"></div>
                 <p class="user-side-nav-title">
                     {{ name }}
                 </p>
