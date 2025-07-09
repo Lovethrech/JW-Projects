@@ -11,6 +11,7 @@ import MainContentMainCtn from "@/components/user/mainContent/MainCtn.vue";
             <SideNavMainCtn></SideNavMainCtn>
             <section class="user-home-view-main-mini-section">
                 <TopNavMainCtn></TopNavMainCtn>
+                <br/>
                 <SearchCtn></SearchCtn>
                 <MainContentMainCtn></MainContentMainCtn>
             </section>
@@ -27,5 +28,6 @@ import MainContentMainCtn from "@/components/user/mainContent/MainCtn.vue";
 }
 .user-home-view-main-mini-section{
     width:85%;
+    margin:0 50px 0 0;
 }
 </style>
