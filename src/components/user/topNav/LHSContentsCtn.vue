@@ -5,7 +5,7 @@
                 <img src="@/components/Icons/overview-icon.svg" alt=""/>
             </div>
             <p class="lhs-content-ctn-main-ctn-title">
-                Product Overview
+                Product view
             </p>
         </div>
     </div>
