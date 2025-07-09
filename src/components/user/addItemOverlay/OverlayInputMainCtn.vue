@@ -1,4 +1,5 @@
 <script setup>
+import userAddItemOverlayInputDetails from "@/data/user-add-item-overlay-input-details.json";
 import OverlayInput from './OverlayInput.vue';
 import OverlayInputDrop from './OverlayInputDrop.vue';
 </script>
@@ -7,7 +8,12 @@ import OverlayInputDrop from './OverlayInputDrop.vue';
     <div class="user-add-item-overlay-input-main-ctn-main-ctn">
         <div class="user-add-item-overlay-input-main-ctn-mini-ctn">
             <div class="user-add-item-overlay-input-main-ctn-mini-ctn-category">
-                <OverlayInput></OverlayInput>
+                <OverlayInput
+                    :name="userAddItemOverlayInputDetails[0].name"
+                    :nameFor="userAddItemOverlayInputDetails[0].nameFor"
+                    :nameType="userAddItemOverlayInputDetails[0].nameType"
+                >
+                </OverlayInput>
                 <OverlayInputDrop></OverlayInputDrop>
             </div>
             <div class="user-add-item-overlay-input-main-ctn-mini-ctn-category">
