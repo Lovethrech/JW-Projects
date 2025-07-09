@@ -13,18 +13,18 @@
         "options":[
             {
                 "id":"1",
-                "name":"product type"
+                "name":"Product type"
             },
             {
-                "id":"1",
+                "id":"2",
                 "name":""
             },
             {
-                "id":"1",
+                "id":"3",
                 "name":""
             },
             {
-                "id":"1",
+                "id":"4",
                 "name":""
             }
         ]

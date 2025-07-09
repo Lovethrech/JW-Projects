@@ -14,7 +14,13 @@ import OverlayInputDrop from './OverlayInputDrop.vue';
                     :nameType="userAddItemOverlayInputDetails[0].nameType"
                 >
                 </OverlayInput>
-                <OverlayInputDrop></OverlayInputDrop>
+                <OverlayInputDrop
+                    :name="userAddItemOverlayInputDetails[1].name"
+                    :nameFor="userAddItemOverlayInputDetails[1].nameFor"
+                    :nameType="userAddItemOverlayInputDetails[1].nameType"
+                    :nameOptions="userAddItemOverlayInputDetails[1].options"
+                >
+                </OverlayInputDrop>
             </div>
             <div class="user-add-item-overlay-input-main-ctn-mini-ctn-category">
 

@@ -1,18 +1,31 @@
+<script setup>
+import { defineProps } from 'vue';
+const {name, nameFor, nameType, nameOptions}=defineProps(['name', 'nameFor', 'nameType', 'nameOptions']);
+</script>
+
 <template>
     <div class="user-add-item-overlay-input-drop-main-ctn">
         <div class="user-add-item-overlay-input-drop-mini-ctn">
             <label 
-                for="nameFor" 
+                :for="nameFor" 
                 class="user-add-item-overlay-input-drop-mini-ctn-input-ctn-name"
             >
-                product type
+                {{ name }}
             </label>
             <select 
-                id="nameFor"
-                type="nameType"
+                :id="nameFor"
+                :type="nameType"
                 class="user-add-item-overlay-input-drop-mini-ctn-input"
             >
-                <option value="1" class="user-add-item-overlay-input-drop-mini-ctn-input-option">Product Type</option>
+                <option :value="nameOptions[0].id" class="user-add-item-overlay-input-drop-mini-ctn-input-option">
+                    {{nameOptions[0].name}}
+                </option>
+                <option :value="nameOptions[1].id" class="user-add-item-overlay-input-drop-mini-ctn-input-option">
+                    {{nameOptions[1].name}}
+                </option>
+                <option :value="nameOptions[2].id" class="user-add-item-overlay-input-drop-mini-ctn-input-option">
+                    {{nameOptions[2].name}}
+                </option>
             </select>
         </div>
     </div>
