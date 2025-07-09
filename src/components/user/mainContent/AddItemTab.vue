@@ -1,10 +1,16 @@
+<script setup>
+import { useUserAddItemOverlayModalStore } from '@/stores/userAddItemOverlayModal';
+
+const {showUserAdditemOverlayActiveState, showUserAdditemOverlayDefaultState}=useUserAddItemOverlayModalStore();
+</script>
+
 <template>
     <div class="user-main-content-add-item-tab-main-ctn">
         <div class="user-main-content-add-item-tab-mini-ctn">
             <p class="user-main-content-add-item-tab-main-ctn-title">
                 Add Item
             </p>
-            <div class="user-main-content-add-item-tab-main-ctn-icon-ctn">
+            <div class="user-main-content-add-item-tab-main-ctn-icon-ctn" @click="showUserAdditemOverlayDefaultState=showUserAdditemOverlayActiveState">
                 <img src="@/components/Icons/add-item-icon.svg" alt=""/>
             </div>
         </div>
