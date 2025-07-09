@@ -8,6 +8,7 @@ import UserAddItemOverlayInputMainCtn from "@/components/user/addItemOverlay/Ove
             <p class="user-add-item-overlay-main-ctn-mini-ctn-modal-title">
                 Product Details
             </p>
+            <br/>
             <p class="user-add-item-overlay-main-ctn-mini-ctn-modal-desc">
                 Give details of the product to help identify and track the product.
             </p>
@@ -36,5 +37,12 @@ import UserAddItemOverlayInputMainCtn from "@/components/user/addItemOverlay/Ove
     background-color: #ededed;
     width:70vw;
     height:90vh;
+    padding:20px 40px;
+}
+.user-add-item-overlay-main-ctn-mini-ctn-modal-title{
+    font-size:34px;
+}
+.user-add-item-overlay-main-ctn-mini-ctn-modal-desc{
+    font-size: 14px;
 }
 </style>
