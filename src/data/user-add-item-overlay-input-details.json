@@ -31,75 +31,78 @@
     },
     {
         "id":"3",
-        "name":"",
-        "nameFor":"",
-        "nameType":"",
+        "name":"received date",
+        "nameFor":"receivedDate",
+        "nameType":"date",
         "options":[
             {
                 "id":"1",
-                "name":""
+                "name":"received date : 11 feb, 2024"
             }
         ]
     },
     {
         "id":"4",
-        "name":"",
-        "nameFor":"",
-        "nameType":"",
+        "name":"expiry date",
+        "nameFor":"expiryDate",
+        "nameType":"date",
         "options":[
             {
                 "id":"1",
-                "name":""
+                "name":"received date : 11 feb, 2026"
             }
         ]
     },
     {
         "id":"5",
-        "name":"",
-        "nameFor":"",
-        "nameType":"",
+        "name":"number of item",
+        "nameFor":"numberOfItem",
+        "nameType":"text",
         "options":[
             {
                 "id":"1",
-                "name":""
+                "name":"Number of item"
             }
         ]
     },
     {
         "id":"6",
-        "name":"",
-        "nameFor":"",
-        "nameType":"",
+        "name":"number of carton",
+        "nameFor":"numberOfCarton",
+        "nameType":"text",
         "options":[
             {
                 "id":"1",
-                "name":""
+                "name":"Number of carton"
             }
         ]
     },
     {
-        "id":"1",
-        "name":"",
-        "nameFor":"",
-        "nameType":"",
-        "options":[{}]
+        "id":"7",
+        "name":"product supplier",
+        "nameFor":"productSupplier",
+        "nameType":"text"
     },
     {
-        "id":"1",
-        "name":"",
-        "nameFor":"",
-        "nameType":"",
-        "options":[{}]
+        "id":"8",
+        "name":"supplier phone number",
+        "nameFor":"supplierPhoneNumber",
+        "nameType":"text"
     },
     {
-        "id":"1",
-        "name":"",
-        "nameFor":"",
-        "nameType":"",
-        "options":[{}]
+        "id":"9",
+        "name":"location",
+        "nameFor":"location",
+        "nameType":"text",
+        "options":[
+            {
+                "id":"1",
+                "name":"location"
+            }
+        ]
     },
     {
-        "id":"1",
+        "id":"10",
         "name":"",
         "nameFor":"",
         "nameType":"",
