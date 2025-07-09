@@ -1,13 +1,13 @@
 <script setup>
 import Logo from '@/components/Logo.vue';
-import LogoutIconCtn from './LogoutIconCtn.vue';
+// import LogoutIconCtn from './LogoutIconCtn.vue';
 </script>
 
 <template>
     <div class="user-side-nav-top-nav">
         <div class="user-side-nav-top-nav-mini-ctn">
             <Logo></Logo>
-            <LogoutIconCtn></LogoutIconCtn>
+            <!-- <LogoutIconCtn></LogoutIconCtn> -->
         </div>
     </div>
 </template>
