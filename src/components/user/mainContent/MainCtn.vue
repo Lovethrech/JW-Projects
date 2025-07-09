@@ -2,6 +2,7 @@
 import ItemMainListCtn from './ItemMainListCtn.vue';
 import AddItemTab from './AddItemTab.vue';
 import MainCatalogListNavCtn from './MainCatalogListNavCtn.vue';
+import MainCatalogBoxCtn from './MainCatalogBoxCtn.vue';
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import MainCatalogListNavCtn from './MainCatalogListNavCtn.vue';
             </header> 
             <main class="user-main-content-main-ctn-mini-ctn-main-body">
                 <MainCatalogListNavCtn></MainCatalogListNavCtn>
+                <MainCatalogBoxCtn></MainCatalogBoxCtn>
             </main>
         </div>
     </div>
