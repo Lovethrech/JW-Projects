@@ -31,7 +31,7 @@
 .rhs-content-ctn-main-ctn-notification-ctn-icon-ctn{
     width:40px;
     height:40px;
-    background-color: #d9d9d9;
+    background-color: #ededed;
     padding:10px;
     border-radius: 10px;
 }

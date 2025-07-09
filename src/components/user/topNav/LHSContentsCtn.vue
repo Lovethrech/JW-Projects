@@ -21,7 +21,7 @@
     gap:10px;
 }
 .product-overview-icon{
-    background-color: #d9d9d9;
+    background-color: #ededed;
     padding:10px;
     border-radius: 10px;
 }
