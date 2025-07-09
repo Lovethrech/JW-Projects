@@ -1,3 +1,7 @@
+<script setup>
+import UserAddItemOverlayInputMainCtn from "@/components/user/addItemOverlay/OverlayInputMainCtn.vue";
+</script>
+
 <template>
     <div class="user-add-item-overlay-main-ctn-main-ctn">
         <div class="user-add-item-overlay-main-ctn-mini-ctn">
@@ -8,7 +12,7 @@
                 Give details of the product to help identify and track the product.
             </p>
             <div class="user-add-item-overlay-main-ctn-mini-ctn-form">
-
+                <UserAddItemOverlayInputMainCtn></UserAddItemOverlayInputMainCtn>
             </div>
         </div>
     </div>
