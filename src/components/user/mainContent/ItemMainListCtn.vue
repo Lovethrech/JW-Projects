@@ -22,4 +22,10 @@ import ItemList from './ItemList.vue';
     background-color: #ededed;
     padding:8px;
 }
+.user-main-content-item-main-list-ctn-mini-ctn{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:10px;
+}
 </style>

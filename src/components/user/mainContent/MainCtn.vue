@@ -11,3 +11,11 @@ import AddItemTab from './AddItemTab.vue';
         </div>
     </div>
 </template>
+
+<style scoped>
+.user-main-content-main-ctn-mini-ctn{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+</style>
