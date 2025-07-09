@@ -1,0 +1,26 @@
+[
+    {
+        "id":"1",
+        "name":"product name"
+    },
+    {
+        "id":"2",
+        "name":"No of item"
+    },
+    {
+        "id":"3",
+        "name":"No of carton"
+    },
+    {
+        "id":"4",
+        "name":"received date"
+    },
+    {
+        "id":"5",
+        "name":"expiry date"
+    },
+    {
+        "id":"6",
+        "name":"location"
+    }
+]

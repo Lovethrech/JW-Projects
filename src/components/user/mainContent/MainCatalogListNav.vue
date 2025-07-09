@@ -8,6 +8,6 @@
 
 <style scoped>
 .main-catalog-list-nav-main-ctn{
-    background-color: aquamarine;
+    padding:6px;
 }
 </style>
