@@ -12,7 +12,6 @@ import MainCatalogBoxEmptyCtn from './MainCatalogBoxEmptyCtn.vue';
 
 <style scoped>
 .main-catalog-box-ctn-main-ctn{
-    background-color: blueviolet;
     width:100%;
     height:600px;
 }
@@ -21,5 +20,6 @@ import MainCatalogBoxEmptyCtn from './MainCatalogBoxEmptyCtn.vue';
     height:100%;
     display:flex;
     justify-content: center;
+    place-items: center;
 }
 </style>

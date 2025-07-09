@@ -13,17 +13,29 @@
 
 <style scoped>
 .main-catalog-box-empty-ctn-main-ctn{
-    width:50%;
-    height:100%;
+    width:30%;
+    height:30%;
     display: flex;
     justify-content: center;
-    place-items:center
+    place-items:center;
+    border: 1px dotted hsla(0, 0%, 0%, 0.644);
+    border-radius:20px;
+}
+.main-catalog-box-empty-ctn-main-ctn:hover{
+    cursor:pointer;
 }
 .main-catalog-box-empty-ctn-mini-ctn-icon-ctn{
-    width:20px;
+    width:100%;
+    display:flex;
+    justify-content: center;
 }
 .main-catalog-box-empty-ctn-mini-ctn-icon-ctn img{
-    width:100%;
+    width:20px;
     height:100%;
+}
+.main-catalog-box-empty-ctn-mini-ctn-icon-desc{
+    color:hsla(0, 0%, 0%, 0.644);
+    font-size: 14px;
+    margin-top:4px;
 }
 </style>
