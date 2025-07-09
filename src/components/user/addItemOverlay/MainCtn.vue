@@ -1,9 +1,12 @@
 <script setup>
+import { useUserAddItemOverlayModalStore } from '@/stores/userAddItemOverlayModal';
 import UserAddItemOverlayInputMainCtn from "@/components/user/addItemOverlay/OverlayInputMainCtn.vue";
+
+const {showUserAdditemOverlayDefaultState}=useUserAddItemOverlayModalStore();
 </script>
 
 <template>
-    <div class="user-add-item-overlay-main-ctn-main-ctn">
+    <div class="user-add-item-overlay-main-ctn-main-ctn" :style="{display: showUserAdditemOverlayDefaultState}">
         <div class="user-add-item-overlay-main-ctn-mini-ctn">
             <p class="user-add-item-overlay-main-ctn-mini-ctn-modal-title">
                 Product Details

@@ -18,7 +18,7 @@ const {showUserAdditemOverlayDefaultState}=useUserAddItemOverlayModalStore();
             </header> 
             <main class="user-main-content-main-ctn-mini-ctn-main-body">
                 <MainCatalogListNavCtn></MainCatalogListNavCtn>
-                <AddItemOverlayMainCtn v-if="showUserAdditemOverlayDefaultState"></AddItemOverlayMainCtn>
+                <AddItemOverlayMainCtn></AddItemOverlayMainCtn>
                 <MainCatalogBoxCtn></MainCatalogBoxCtn>
             </main>
         </div>
