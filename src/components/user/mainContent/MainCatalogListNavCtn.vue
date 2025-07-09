@@ -9,3 +9,10 @@ import MainCatalogListNav from './MainCatalogListNav.vue';
         </div>
     </div>
 </template>
+
+<style scoped>
+.main-catalog-list-nav-ctn-main-ctn{
+    background-color: #ededed;
+    padding:10px;
+}
+</style>

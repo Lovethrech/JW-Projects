@@ -24,4 +24,7 @@ import MainCatalogListNavCtn from './MainCatalogListNavCtn.vue';
     flex-direction: row;
     justify-content: space-between;
 }
+.user-main-content-main-ctn-mini-ctn-main-body{
+    margin:3vh 0;
+}
 </style>

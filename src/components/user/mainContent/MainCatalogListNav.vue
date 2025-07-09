@@ -5,3 +5,9 @@
         </p>
     </div>
 </template>
+
+<style scoped>
+.main-catalog-list-nav-main-ctn{
+    background-color: aquamarine;
+}
+</style>
