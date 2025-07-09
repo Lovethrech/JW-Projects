@@ -16,4 +16,7 @@ const {name}=defineProps(['name']);
 .main-catalog-list-nav-main-ctn{
     padding:6px;
 }
+.main-catalog-list-nav-main-ctn-name{
+    text-transform: capitalize;
+}
 </style>
