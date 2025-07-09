@@ -11,3 +11,14 @@ import RHSContentsCtn from './RHSContentsCtn.vue';
         </div>
     </div>
 </template>
+
+<style scoped>
+.user-side-nav-top-nav-main-ctn{
+    margin-right:30px;
+}
+.user-side-nav-top-nav-mini-ctn{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+</style>
