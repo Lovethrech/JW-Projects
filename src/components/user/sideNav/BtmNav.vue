@@ -1,3 +1,9 @@
+<script setup>
+import { defineProps } from 'vue';
+
+const { name, img, iconName, link }=defineProps(['name', 'img', 'iconName', 'link']);
+</script>
+
 <template>
     <RouterLink :to="link" class="link">
         <div class="user-side-nav-btm-nav-main-ctn">

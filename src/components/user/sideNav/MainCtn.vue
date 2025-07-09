@@ -1,4 +1,5 @@
 <script setup>
+import userSideNavContents from "@/data/user-side-nav-contents.json";
 import TopNav from './TopNav.vue';
 import MainNavCtn from './MainNavCtn.vue';
 import BtmNav from './BtmNav.vue';
@@ -15,7 +16,13 @@ import BtmNav from './BtmNav.vue';
                     <MainNavCtn></MainNavCtn>
                 </section>
             </section>
-            <BtmNav></BtmNav>
+            <BtmNav
+                :name="userSideNavContents[3].name"
+                :img="userSideNavContents[3].img"
+                :iconName="userSideNavContents[3].iconName"
+                :link="userSideNavContents[3].link"
+            >
+            </BtmNav>
         </div>
     </div>
 </template>
