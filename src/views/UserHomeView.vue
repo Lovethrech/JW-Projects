@@ -28,7 +28,7 @@ import MainContentMainCtn from "@/components/user/mainContent/MainCtn.vue";
     flex-direction: row;
 }
 .user-home-view-main-mini-section{
-    width:85%;
-    margin:0 50px 0 0;
+    width:100%;
+    margin:0 50px 0 350px;
 }
 </style>
