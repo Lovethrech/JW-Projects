@@ -19,6 +19,9 @@
 </template>
 
 <style scoped>
+.user-add-item-overlay-input-drop-main-ctn{
+    width:50%;
+}
 .user-add-item-overlay-input-drop-mini-ctn-input-ctn-name{
     color:#6a6a6a;
     font-size:12px;
