@@ -2,6 +2,7 @@
 import userAddItemOverlayInputDetails from "@/data/user-add-item-overlay-input-details.json";
 import OverlayInput from './OverlayInput.vue';
 import OverlayInputDrop from './OverlayInputDrop.vue';
+import OverlayUploadProductImgMainCtn from "./OverlayUploadProductImgMainCtn.vue";
 </script>
 
 <template>
@@ -77,7 +78,8 @@ import OverlayInputDrop from './OverlayInputDrop.vue';
                 >
                 </OverlayInputDrop>
             </div>
-            
+            <br/>
+            <OverlayUploadProductImgMainCtn></OverlayUploadProductImgMainCtn>
         </div>
     </div>
 </template>

@@ -30,7 +30,7 @@ const {showUserAdditemOverlayDefaultState}=useUserAddItemOverlayModalStore();
     z-index:10;
     background-color: rgba(0, 0, 0, 0.404);
     width:100vw;
-    height:100vh;
+    height:100%;
     display:flex;
     justify-content: center;
     place-items: center;
