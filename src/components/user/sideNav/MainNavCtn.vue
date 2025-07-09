@@ -8,21 +8,21 @@ import Nav from './Nav.vue';
         <div class="user-side-nav-main-nav-ctn-mini-ctn">
             <Nav
                 :name="userSideNavContents[0].name"
-                :icon="userSideNavContents[0].icon"
+                :img="userSideNavContents[0].img"
                 :iconName="userSideNavContents[0].iconName"
                 :link="userSideNavContents[0].link"
             >
             </Nav>
             <Nav
                 :name="userSideNavContents[1].name"
-                :icon="userSideNavContents[1].icon"
+                :img="userSideNavContents[1].img"
                 :iconName="userSideNavContents[1].iconName"
                 :link="userSideNavContents[1].link"
             >
             </Nav>
             <Nav
                 :name="userSideNavContents[3].name"
-                :icon="userSideNavContents[3].icon"
+                :img="userSideNavContents[3].img"
                 :iconName="userSideNavContents[3].iconName"
                 :link="userSideNavContents[3].link"
             >

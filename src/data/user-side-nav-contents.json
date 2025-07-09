@@ -2,8 +2,8 @@
     {
         "id":"1",
         "name":"home",
-        "icon":"@/components/Icons/home.svg",
-        "iconName":"home icon",
+        "img":"",
+        "iconName":"home img",
         "link":"/home",
         "contents":[
             {
@@ -26,21 +26,21 @@
     {
         "id":"2",
         "name":"integrate software",
-        "icon":"",
+        "img":"",
         "iconName":"", 
         "link":"/home"
     },
     {
         "id":"3",
         "name":"data report",
-        "icon":"",
+        "img":"",
         "iconName":"",
         "link":"/home"
     },
     {
         "id":"4",
         "name":"settings",
-        "icon":"",
+        "img":"",
         "iconName":"",
         "link":"/home"
     }

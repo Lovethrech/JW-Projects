@@ -1,11 +1,11 @@
 <script setup>
 import { defineProps } from 'vue';
 
-const { name, icon, iconName, link }=defineProps(['name', 'icon', 'iconName', 'link']);
+const { name, img, iconName, link }=defineProps(['name', 'img', 'iconName', 'link']);
 </script>
 
 <template>
-    <RouterLink :to="link">
+    <RouterLink :to="link" class="link">
         <div class="user-side-nav-nav-main-ctn">
             <div class="user-side-nav-nav-main-ctn-mini-ctn">
                 <div class="user-side-nav-nav-main-ctn-icon-ctn">
