@@ -21,6 +21,7 @@ const {name, link}=defineProps(['name', 'link']);
 }
 .user-main-content-item-list-main-ctn-name{
     color:#000000;
+    font-size:14px;
     text-transform: capitalize;
 }
 .user-main-content-item-list-main-ctn:hover{
