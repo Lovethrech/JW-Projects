@@ -9,9 +9,9 @@
                     <img src="@/components/Icons/notification-icon.svg" alt=""/>
                 </div>
             </div>
-            <div class="rhs-content-ctn-main-ctn-user-img-ctn">
+            <!-- <div class="rhs-content-ctn-main-ctn-user-img-ctn">
                 <img src="/public/martha.jpg" alt=""/>
-            </div>
+            </div> -->
         </div>
     </div>
 </template>
