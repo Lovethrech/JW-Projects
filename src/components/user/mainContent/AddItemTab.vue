@@ -1,5 +1,26 @@
 <template>
     <div class="user-main-content-add-item-tab-main-ctn">
-        Lorem ipsum dolor sit amet.
+        <div class="user-main-content-add-item-tab-mini-ctn">
+            <p class="user-main-content-add-item-tab-main-ctn-title">
+                Add Item
+            </p>
+            <div class="user-main-content-add-item-tab-main-ctn-icon-ctn">
+                <img src="@/components/Icons/add-item-icon.svg" alt=""/>
+            </div>
+        </div>
     </div>
 </template>
+
+<style scoped>
+.user-main-content-add-item-tab-mini-ctn{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+}.user-main-content-add-item-tab-main-ctn-title, .user-main-content-add-item-tab-main-ctn-icon-ctn{
+    margin:auto 0;
+}
+.user-main-content-add-item-tab-main-ctn-icon-ctn{
+    background-color: #ededed;
+    padding:10px;
+}
+</style>
