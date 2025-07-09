@@ -21,6 +21,10 @@ import MainCatalogBoxCtn from './MainCatalogBoxCtn.vue';
 </template>
 
 <style scoped>
+.user-main-content-main-ctn-mini-ctn{
+    display:flex;
+    flex-direction: column;
+}
 .user-main-content-main-ctn-mini-ctn-header{
     display:flex;
     flex-direction: row;
@@ -28,5 +32,8 @@ import MainCatalogBoxCtn from './MainCatalogBoxCtn.vue';
 }
 .user-main-content-main-ctn-mini-ctn-main-body{
     margin:3vh 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 </style>
