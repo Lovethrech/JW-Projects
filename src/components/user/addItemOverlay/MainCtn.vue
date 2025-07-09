@@ -39,8 +39,8 @@ const {showUserAdditemOverlayDefaultState}=useUserAddItemOverlayModalStore();
     position:relative;
     background-color: #ededed;
     width:70vw;
-    height:90vh;
-    padding:20px 40px;
+    height:100%;
+    padding:40px 60px;
 }
 .user-add-item-overlay-main-ctn-mini-ctn-modal-title{
     font-size:34px;

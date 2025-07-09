@@ -55,7 +55,27 @@ import OverlayInputDrop from './OverlayInputDrop.vue';
                 </OverlayInputDrop>
             </div>
             <div class="user-add-item-overlay-input-main-ctn-mini-ctn-category">
-
+                <OverlayInput
+                    :name="userAddItemOverlayInputDetails[6].name"
+                    :nameFor="userAddItemOverlayInputDetails[6].nameFor"
+                    :nameType="userAddItemOverlayInputDetails[6].nameType"
+                >
+                </OverlayInput>
+                <OverlayInput
+                    :name="userAddItemOverlayInputDetails[7].name"
+                    :nameFor="userAddItemOverlayInputDetails[7].nameFor"
+                    :nameType="userAddItemOverlayInputDetails[7].nameType"
+                >
+                </OverlayInput>
+            </div>
+            <div class="user-add-item-overlay-input-main-ctn-mini-ctn-category">
+                <OverlayInputDrop
+                    :name="userAddItemOverlayInputDetails[8].name"
+                    :nameFor="userAddItemOverlayInputDetails[8].nameFor"
+                    :nameType="userAddItemOverlayInputDetails[8].nameType"
+                    :nameOptions="userAddItemOverlayInputDetails[8].options"
+                >
+                </OverlayInputDrop>
             </div>
             
         </div>
