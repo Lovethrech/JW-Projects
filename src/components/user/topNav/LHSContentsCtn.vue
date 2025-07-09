@@ -1,3 +1,13 @@
 <template>
-    
+    <div class="lhs-content-ctn-main-ctn">
+        <div class="lhs-content-ctn-mini-ctn">
+            <div class="product-overview-icon">
+                <img src="@/components/Icons/overview-icon.svg" alt=""/>
+            </div>
+            <p class="title">
+                Product Overview
+            </p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolor sapiente. Cupiditate dolore sequi in eligendi libero esse commodi deserunt ipsa quisquam vero. Tempore quisquam quaerat pariatur, et laboriosam neque. Cupiditate ab esse libero molestiae illo, doloribus nostrum iste vitae sapiente temporibus architecto quis veniam quas exercitationem doloremque inventore dicta sint laudantium. Numquam ducimus eum voluptatibus debitis incidunt. Quibusdam fugiat consectetur necessitatibus officia neque. Quae dolorem harum dolorum quis ullam nam odit, illum similique quia perspiciatis ducimus esse doloribus in dicta placeat voluptate eligendi, laborum quos sunt, molestias atque perferendis. Doloribus cumque voluptatum, iste rem labore, praesentium corporis sequi dolores excepturi non rerum quaerat reiciendis, placeat architecto quod repellat? Cupiditate fugit, blanditiis impedit, deserunt totam sit quibusdam voluptate quia nam adipisci incidunt voluptatibus! Quaerat assumenda, asperiores omnis, sint consectetur voluptate fugit quisquam aut suscipit ipsa voluptas quis accusamus perferendis deleniti vel odit ducimus perspiciatis modi nobis rerum, provident quasi temporibus minus dolor? Debitis odit facilis quae. Perspiciatis libero consequatur obcaecati molestiae vero ipsam amet dolorum doloremque cumque veritatis esse, inventore nemo accusamus, unde repudiandae earum dicta nisi quibusdam eos odit nihil, sapiente quis magnam non? Quasi hic corporis quidem ad eius aliquam deserunt dignissimos, expedita quibusdam laborum ipsa ea incidunt quam doloremque necessitatibus distinctio eveniet porro recusandae sed nihil quisquam dolore voluptatem! Animi harum porro, placeat laborum error saepe. Sint vitae et itaque adipisci non! Quae pariatur soluta placeat ipsa nam id recusandae cumque sit doloremque voluptatum, aut assumenda impedit, delectus, nostrum a molestiae tenetur saepe adipisci est accusamus quasi! Nostrum accusantium, quaerat eligendi soluta repudiandae reiciendis blanditiis debitis magni facilis quam quae, illo exercitationem maxime optio suscipit deleniti temporibus reprehenderit iste obcaecati? Fugit quam rerum molestias reprehenderit veritatis cum in ab et, ipsam dolore tenetur nobis temporibus consectetur tempora delectus laboriosam neque! Ipsam eaque nesciunt architecto hic aperiam at.
+        </div>
+    </div>
 </template>

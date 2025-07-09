@@ -6,12 +6,24 @@ import MainContentMainCtn from "@/components/user/mainContent/MainCtn.vue";
 
 <template>
     <div class="user-home-view">
-        <main>
+        <main class="user-home-view-main">
             <SideNavMainCtn></SideNavMainCtn>
-            <section>
+            <section class="user-home-view-main-mini-section">
                 <TopNavMainCtn></TopNavMainCtn>
                 <MainContentMainCtn></MainContentMainCtn>
             </section>
         </main>
     </div>
 </template>
+
+<style scoped>
+.user-home-view-main{
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+    flex-direction: row;
+}
+.user-home-view-main-mini-section{
+    width:85%;
+}
+</style>

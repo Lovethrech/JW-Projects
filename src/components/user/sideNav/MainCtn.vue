@@ -29,10 +29,9 @@ import BtmNav from './BtmNav.vue';
 
 <style scoped>
 .main-ctn{
-    position:fixed;
     background-color: #d9d9d9 ;
     height:100vh;
-    width: 300px;
+    width: 15%;
 }
 .main-ctn-mini-ctn{
     width:100%;
