@@ -5,11 +5,13 @@ const {name, link}=defineProps(['name', 'link']);
 </script>
 
 <template>
-    <div class="user-main-content-item-list-main-ctn">
-        <p class="user-main-content-item-list-main-ctn-name">
-            {{ name }}
-        </p>
-    </div>
+    <RouterLink :to="link" class="link">
+        <div class="user-main-content-item-list-main-ctn">
+            <p class="user-main-content-item-list-main-ctn-name">
+                {{ name }}
+            </p>
+        </div>
+    </RouterLink>
 </template>
 
 <style scoped>
@@ -20,5 +22,10 @@ const {name, link}=defineProps(['name', 'link']);
 .user-main-content-item-list-main-ctn-name{
     color:#000000;
     text-transform: capitalize;
+}
+.user-main-content-item-list-main-ctn:hover{
+    cursor:pointer;
+    transform:scale(0.98);
+    transition: all .6s;
 }
 </style>
