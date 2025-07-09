@@ -21,30 +21,31 @@ const { name, img, iconName, link }=defineProps(['name', 'img', 'iconName', 'lin
 </template>
 
 <style scoped>
-.user-side-nav-nav-main-ctn{
-     width:100%;
-     display:flex;
-     justify-content: center;
+.user-side-nav-btm-nav-main-ctn{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    margin-bottom:5vh;
  }
-.user-side-nav-nav-main-ctn-mini-ctn{
-     width:70%;
+.user-side-nav-btm-nav-main-ctn-mini-ctn{
+    width:70%;
     padding:10px;
     display:flex;
     flex-direction: row;
     gap:10px;
 }
-.user-side-nav-nav-main-ctn-icon-ctn{
+.user-side-nav-btm-nav-main-ctn-icon-ctn{
     width:16px;
     height:16px;
 }
-.user-side-nav-nav-main-ctn img{
+.user-side-nav-btm-nav-main-ctn img{
     width:100%;
     height:100%;
 }
 .user-side-nav-title{
     text-transform: capitalize;
 }
-.user-side-nav-title, .user-side-nav-nav-main-ctn-icon-ctn{
+.user-side-nav-title, .user-side-nav-btm-nav-main-ctn-icon-ctn{
     width:auto 0;
 }
 </style>

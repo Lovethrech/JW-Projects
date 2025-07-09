@@ -37,6 +37,9 @@ import BtmNav from './BtmNav.vue';
 .main-ctn-mini-ctn{
     width:100%;
     height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
 }
 .nav-contents{
     margin:5vh 0;
