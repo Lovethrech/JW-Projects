@@ -13,6 +13,7 @@ import MainContentMainCtn from "@/components/user/mainContent/MainCtn.vue";
                 <TopNavMainCtn></TopNavMainCtn>
                 <br/>
                 <SearchCtn></SearchCtn>
+                <br/>
                 <MainContentMainCtn></MainContentMainCtn>
             </section>
         </main>
