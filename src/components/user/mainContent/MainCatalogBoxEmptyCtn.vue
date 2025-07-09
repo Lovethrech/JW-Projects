@@ -13,6 +13,16 @@
 
 <style scoped>
 .main-catalog-box-empty-ctn-main-ctn{
+    width:50%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    place-items:center
+}
+.main-catalog-box-empty-ctn-mini-ctn-icon-ctn{
+    width:20px;
+}
+.main-catalog-box-empty-ctn-mini-ctn-icon-ctn img{
     width:100%;
     height:100%;
 }

@@ -16,4 +16,10 @@ import MainCatalogBoxEmptyCtn from './MainCatalogBoxEmptyCtn.vue';
     width:100%;
     height:600px;
 }
+.main-catalog-box-ctn-mini-ctn{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+}
 </style>
