@@ -9,7 +9,8 @@ const { name, img, iconName, link }=defineProps(['name', 'img', 'iconName', 'lin
         <div class="user-side-nav-nav-main-ctn">
             <div class="user-side-nav-nav-main-ctn-mini-ctn">
                 <div class="user-side-nav-nav-main-ctn-icon-ctn">
-                    <img src="@/components/Icons/home.svg" :alt="iconName">
+                    <img :src="img" />
+                    <!-- :alt="iconName" -->
                 </div>
                 <p class="user-side-nav-title">
                     {{ name }}

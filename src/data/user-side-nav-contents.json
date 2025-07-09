@@ -2,7 +2,7 @@
     {
         "id":"1",
         "name":"home",
-        "img":"",
+        "img":"@/components/Icons/home.svg",
         "iconName":"home img",
         "link":"/home",
         "contents":[
