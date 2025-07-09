@@ -1,6 +1,7 @@
 <script setup>
 import SideNavMainCtn from '@/components/user/sideNav/MainCtn.vue';
 import TopNavMainCtn from "@/components/user/topNav/MainCtn.vue";
+import SearchCtn from '@/components/user/SearchCtn.vue';
 import MainContentMainCtn from "@/components/user/mainContent/MainCtn.vue";
 </script>
 
@@ -10,6 +11,7 @@ import MainContentMainCtn from "@/components/user/mainContent/MainCtn.vue";
             <SideNavMainCtn></SideNavMainCtn>
             <section class="user-home-view-main-mini-section">
                 <TopNavMainCtn></TopNavMainCtn>
+                <SearchCtn></SearchCtn>
                 <MainContentMainCtn></MainContentMainCtn>
             </section>
         </main>

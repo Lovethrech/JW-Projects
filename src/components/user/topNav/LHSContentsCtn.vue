@@ -23,7 +23,7 @@
 .product-overview-icon{
     background-color: #d9d9d9;
     padding:10px;
-    border-radius: 50%;;
+    border-radius: 10px;
 }
 .lhs-content-ctn-main-ctn-title{
     margin: auto 0;
