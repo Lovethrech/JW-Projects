@@ -23,10 +23,36 @@ import OverlayInputDrop from './OverlayInputDrop.vue';
                 </OverlayInputDrop>
             </div>
             <div class="user-add-item-overlay-input-main-ctn-mini-ctn-category">
-
+                <OverlayInputDrop
+                    :name="userAddItemOverlayInputDetails[2].name"
+                    :nameFor="userAddItemOverlayInputDetails[2].nameFor"
+                    :nameType="userAddItemOverlayInputDetails[2].nameType"
+                    :nameOptions="userAddItemOverlayInputDetails[2].options"
+                >
+                </OverlayInputDrop>
+                <OverlayInputDrop
+                    :name="userAddItemOverlayInputDetails[3].name"
+                    :nameFor="userAddItemOverlayInputDetails[3].nameFor"
+                    :nameType="userAddItemOverlayInputDetails[3].nameType"
+                    :nameOptions="userAddItemOverlayInputDetails[3].options"
+                >
+                </OverlayInputDrop>
             </div>
             <div class="user-add-item-overlay-input-main-ctn-mini-ctn-category">
-                
+                <OverlayInputDrop
+                    :name="userAddItemOverlayInputDetails[4].name"
+                    :nameFor="userAddItemOverlayInputDetails[4].nameFor"
+                    :nameType="userAddItemOverlayInputDetails[4].nameType"
+                    :nameOptions="userAddItemOverlayInputDetails[4].options"
+                >
+                </OverlayInputDrop>
+                <OverlayInputDrop
+                    :name="userAddItemOverlayInputDetails[5].name"
+                    :nameFor="userAddItemOverlayInputDetails[5].nameFor"
+                    :nameType="userAddItemOverlayInputDetails[5].nameType"
+                    :nameOptions="userAddItemOverlayInputDetails[5].options"
+                >
+                </OverlayInputDrop>
             </div>
             <div class="user-add-item-overlay-input-main-ctn-mini-ctn-category">
 
@@ -38,6 +64,7 @@ import OverlayInputDrop from './OverlayInputDrop.vue';
 
 <style scoped>
 .user-add-item-overlay-input-main-ctn-mini-ctn-category{
+    margin:20px 0;
     display:flex;
     flex-direction: row;
     flex-wrap: nowrap;

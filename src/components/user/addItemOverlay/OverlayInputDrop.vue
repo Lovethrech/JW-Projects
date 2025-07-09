@@ -20,12 +20,12 @@ const {name, nameFor, nameType, nameOptions}=defineProps(['name', 'nameFor', 'na
                 <option :value="nameOptions[0].id" class="user-add-item-overlay-input-drop-mini-ctn-input-option">
                     {{nameOptions[0].name}}
                 </option>
-                <option :value="nameOptions[1].id" class="user-add-item-overlay-input-drop-mini-ctn-input-option">
+                <!-- <option :value="nameOptions[1].id" class="user-add-item-overlay-input-drop-mini-ctn-input-option">
                     {{nameOptions[1].name}}
                 </option>
                 <option :value="nameOptions[2].id" class="user-add-item-overlay-input-drop-mini-ctn-input-option">
                     {{nameOptions[2].name}}
-                </option>
+                </option> -->
             </select>
         </div>
     </div>
