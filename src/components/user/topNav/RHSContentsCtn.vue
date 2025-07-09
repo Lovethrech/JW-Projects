@@ -10,7 +10,7 @@
                 </div>
             </div>
             <div class="rhs-content-ctn-main-ctn-user-img-ctn">
-                <img src="/martha.jpg" alt=""/>
+                <img src="/public/martha.jpg" alt=""/>
             </div>
         </div>
     </div>
