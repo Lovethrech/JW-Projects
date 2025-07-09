@@ -25,6 +25,6 @@
     width:100%;
     background-color: transparent;
     padding:10px 30px;
-    border: 3px solid #ededed;
+    border: 2px solid #ededed;
 }
 </style>
