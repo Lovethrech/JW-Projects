@@ -2,7 +2,7 @@ import { ref } from 'vue';
 import { defineStore } from 'pinia';
 
 export const useUserAddItemOverlayModalStore = defineStore('userAddItemOverlayModal', () => {
-    const showUserAdditemOverlayDefaultState="block";
+    const showUserAdditemOverlayDefaultState="none";
     
     const showUserAdditemOverlayActiveState=()=>{
         if (showUserAdditemOverlayDefaultState.value==="none"){

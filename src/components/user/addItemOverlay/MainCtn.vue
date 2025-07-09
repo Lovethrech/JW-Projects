@@ -29,16 +29,15 @@ const {showUserAdditemOverlayDefaultState}=useUserAddItemOverlayModalStore();
     left:0;
     z-index:10;
     background-color: rgba(0, 0, 0, 0.404);
-    width:100vw;
-    height:100%;
+    width:99vw;
+    height:120%;
     display:flex;
     justify-content: center;
     place-items: center;
 }
 .user-add-item-overlay-main-ctn-mini-ctn{
-    position:relative;
     background-color: #ededed;
-    width:70vw;
+    width:90vw;
     height:100%;
     padding:40px 60px;
 }
