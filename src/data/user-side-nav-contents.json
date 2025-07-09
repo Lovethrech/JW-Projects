@@ -2,7 +2,7 @@
     {
         "id":"1",
         "name":"home",
-        "img":"@/components/Icons/home.svg",
+        "img":"<i class='ri-home-4-line'></i>",
         "iconName":"home img",
         "link":"/home",
         "contents":[
@@ -26,21 +26,21 @@
     {
         "id":"2",
         "name":"integrate software",
-        "img":"",
+        "img":"<i class='ri-links-line'></i>",
         "iconName":"", 
         "link":"/home"
     },
     {
         "id":"3",
         "name":"data report",
-        "img":"",
+        "img":"<i class='ri-pie-chart-line'></i>",
         "iconName":"",
         "link":"/home"
     },
     {
         "id":"4",
         "name":"settings",
-        "img":"",
+        "img":"<i class='ri-settings-2-line'></i>",
         "iconName":"",
         "link":"/home"
     }
