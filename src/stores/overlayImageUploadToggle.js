@@ -12,7 +12,5 @@ export const useOverlayImageUploadToggleStore = defineStore('overlayImageUploadT
             imageUrl.value = ''
         }
     }
-
-    
     return {imageUrl, handleImageUpload};
 });
