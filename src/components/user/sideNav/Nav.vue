@@ -1,13 +1,13 @@
 <script setup>
 import { defineProps } from 'vue';
 
-const { name, img, iconName, link }=defineProps(['name', 'img', 'iconName', 'link']);
+const { name, img, iconName, link, style }=defineProps(['name', 'img', 'iconName', 'link', 'style']);
 </script>
 
 <template>
     <RouterLink :to="link" class="link">
         <div class="user-side-nav-nav-main-ctn">
-            <div class="user-side-nav-nav-main-ctn-mini-ctn">
+            <div class="user-side-nav-nav-main-ctn-mini-ctn" :style="style">
                 <div class="user-side-nav-nav-main-ctn-icon-ctn" v-html="img"></div>
                 <p class="user-side-nav-title">
                     {{ name }}
@@ -24,8 +24,8 @@ const { name, img, iconName, link }=defineProps(['name', 'img', 'iconName', 'lin
     justify-content: center;
 }
 .user-side-nav-nav-main-ctn-mini-ctn{
-    width:100%;
-    padding:10px 2vw;
+    width:70%;
+    padding:10px 20px;
     display:flex;
     flex-direction: row;
     gap:4px;
