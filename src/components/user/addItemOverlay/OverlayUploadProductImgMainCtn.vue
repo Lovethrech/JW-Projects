@@ -1,9 +1,7 @@
 <script setup>
-// import { useOverlayImageUploadToggleStore } from '@/stores/overlayImageUploadToggle';
 import ImgInputCtn from './ImgInputCtn.vue';
 import ImgPreviewEmptyCtn from './ImgPreviewEmptyCtn.vue';
 import ImgPreviewCtn from './ImgPreviewCtn.vue';
-// const {triggerImageUpload, previewUrl}=useOverlayImageUploadToggleStore();
 </script>
 
 <template>

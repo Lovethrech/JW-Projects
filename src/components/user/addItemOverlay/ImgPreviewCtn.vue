@@ -1,11 +1,13 @@
-<!-- <script setup>
+<script setup>
+import { storeToRefs } from 'pinia';
 import { useOverlayImageUploadToggleStore } from '@/stores/overlayImageUploadToggle';
-const {previewUrl}=useOverlayImageUploadToggleStore();
-</script> -->
+const overlayImageUploadToggleStore=useOverlayImageUploadToggleStore();
+const {imageUrl}=storeToRefs(overlayImageUploadToggleStore);
+</script>
 
 <template>
     <div class="user-add-item-overlay-img-preview-ctn-main-ctn">
-        <img src="/public/avatar.png" alt="Uploaded Image">
+        <img :src="imageUrl" alt="Uploaded Image">
     </div>
 </template>
 
