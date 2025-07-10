@@ -16,16 +16,26 @@
 
 <style scoped>
 .user-add-item-overlay-upload-product-img-main-ctn{
-    background-color: azure;
     width:100%;
     height:30vh;
+    display:flex;
+    justify-content: center;
+    place-items: center;
     border:2px dotted hsla(0, 0%, 0%, 0.664);
     border-radius: 20px;;
 }
 .user-add-item-overlay-upload-product-img-mini-ctn{
-
+    text-align:center;
 }
 .user-add-item-overlay-upload-product-img-mini-ctn-title{
+    
     text-transform: capitalize;
+}
+.user-add-item-overlay-upload-product-img-mini-ctn-title, .user-add-item-overlay-upload-product-img-mini-ctn-icon-ctn{
+    font-size:18px;
+}
+.user-add-item-overlay-upload-product-img-mini-ctn-desc{
+    font-size:12px;
+    color: hsla(0, 0%, 0%, 0.61);
 }
 </style>
