@@ -2,13 +2,13 @@ import { ref } from 'vue';
 import { defineStore } from 'pinia';
 
 export const useUserAddItemOverlayModalStore = defineStore('userAddItemOverlayModal', () => {
-    const showUserAdditemOverlayDefaultState="none";
+    const showUserAdditemOverlayDefaultState=false;
     
-    const showUserAdditemOverlayActiveState=()=>{
-        if (showUserAdditemOverlayDefaultState.value==="none"){
-            showUserAdditemOverlayDefaultState.value="block";
-        }
-    }
+    // const showUserAdditemOverlayActiveState=()=>{
+    //     if (showUserAdditemOverlayDefaultState.value==="none"){
+    //         showUserAdditemOverlayDefaultState.value="block";
+    //     }
+    // }
     // const defaultMargin = "0";
     // const activeMargin = "-100vw";
 
@@ -18,5 +18,5 @@ export const useUserAddItemOverlayModalStore = defineStore('userAddItemOverlayMo
     // };
 
     
-    return {showUserAdditemOverlayActiveState, showUserAdditemOverlayDefaultState};
+    return {showUserAdditemOverlayDefaultState};
 });

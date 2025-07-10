@@ -1,8 +1,9 @@
 <script setup>
 import { useUserAddItemOverlayModalStore } from '@/stores/userAddItemOverlayModal';
+import { storeToRefs } from 'pinia';
 
-const {showUserAdditemOverlayActiveState, showUserAdditemOverlayDefaultState}=useUserAddItemOverlayModalStore();
-// console.log(showUserAdditemOverlayActiveState);
+const userAddItemOverlayModalStore=useUserAddItemOverlayModalStore();
+const {showUserAdditemOverlayDefaultState}=storeToRefs(userAddItemOverlayModalStore);
 </script>
 
 <template>
