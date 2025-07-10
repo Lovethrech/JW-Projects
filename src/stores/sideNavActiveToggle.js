@@ -26,6 +26,6 @@ export const useSideNavActiveToggleStore = defineStore('sideNavActiveToggle', ()
     const sideNavReportClick=()=>{
         resetStyles();
         reportStyle.value.backgroundColor=activeBgColor;
-    }
+    };
     return {homeStyle, integrateStyle, reportStyle, sideNavHomeClick, sideNavIntegrateClick, sideNavReportClick};
 });

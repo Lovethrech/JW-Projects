@@ -14,6 +14,7 @@ const {name}=defineProps(['name']);
 
 <style scoped>
 .main-catalog-list-nav-main-ctn{
+    width:16.6%;
     padding:6px;
 }
 .main-catalog-list-nav-main-ctn-name{
