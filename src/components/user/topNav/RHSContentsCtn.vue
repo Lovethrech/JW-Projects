@@ -9,9 +9,9 @@
                     <i class="ri-notification-3-line"></i>
                 </div>
             </div>
-            <!-- <div class="rhs-content-ctn-main-ctn-user-img-ctn">
-                <img src="/public/martha.jpg" alt=""/>
-            </div> -->
+            <div class="rhs-content-ctn-main-ctn-user-img-ctn">
+                <img src="/public/avatar.png" alt=""/>
+            </div>
         </div>
     </div>
 </template>
@@ -33,7 +33,6 @@
     height:40px;
     background-color: #ededed;
     color:#4d35d3;
-    font-size:20px;
     padding:10px;
     border-radius: 10px;
 }
