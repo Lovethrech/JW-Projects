@@ -7,3 +7,16 @@
         </div>
     </div>
 </template>
+
+<style scoped>
+.user-add-item-overlay-add-item-ctn-main-ctn{
+    width:100%;
+    background-color: #4d35d3;
+    color:#fff;
+    height:48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+</style>

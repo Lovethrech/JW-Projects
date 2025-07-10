@@ -82,6 +82,7 @@ import ItemBtnMainCtn from "./ItemBtnMainCtn.vue";
             <br/>
             <OverlayUploadProductImgMainCtn></OverlayUploadProductImgMainCtn>
         </div>
+        <br/>
         <ItemBtnMainCtn></ItemBtnMainCtn>
     </div>
 </template>
