@@ -27,7 +27,7 @@ import UserAddItemOverlayInputMainCtn from "@/components/user/addItemOverlay/Ove
     z-index:10;
     background-color: rgba(0, 0, 0, 0.404);
     width:99.2vw;
-    height:120%;
+    height:105%;
     display:flex;
     justify-content: center;
     place-items: center;

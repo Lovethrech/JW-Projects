@@ -88,6 +88,11 @@ import ItemBtnMainCtn from "./ItemBtnMainCtn.vue";
 </template>
 
 <style scoped>
+.user-add-item-overlay-input-main-ctn-main-ctn{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .user-add-item-overlay-input-main-ctn-mini-ctn-category{
     margin:20px 0;
     display:flex;

@@ -8,6 +8,9 @@ export const useUserAddItemOverlayModalStore = defineStore('userAddItemOverlayMo
         if (showUserAdditemOverlayDefaultState.value===false){
             showUserAdditemOverlayDefaultState.value=true;
         }
+        else{
+            showUserAdditemOverlayDefaultState.value=false;
+        }
     }    
     return {showUserAdditemOverlayDefaultState, showUserAdditemOverlayActiveState};
 });

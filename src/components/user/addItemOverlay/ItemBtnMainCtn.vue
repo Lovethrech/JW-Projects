@@ -13,6 +13,10 @@ import CancelOverlayCtn from './CancelOverlayCtn.vue';
 </template>
 
 <style scoped>
+.user-add-item-overlay-item-btn-main-ctn-main-ctn{
+    margin:4vh 0 0 0;
+    height:100%;
+}
 .user-add-item-overlay-item-btn-main-ctn-main-ctn, .user-add-item-overlay-item-btn-main-ctn-mini-ctn{
     width:100%;
 }

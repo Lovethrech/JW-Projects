@@ -1,5 +1,11 @@
+<script setup>
+import { useUserAddItemOverlayModalStore } from '@/stores/userAddItemOverlayModal';
+
+const {showUserAdditemOverlayActiveState}=useUserAddItemOverlayModalStore();
+</script>
+
 <template>
-    <div class="user-add-item-overlay-cancel-overlay-ctn-main-ctn">
+    <div class="user-add-item-overlay-cancel-overlay-ctn-main-ctn" @click="showUserAdditemOverlayActiveState">
         <div class="user-add-item-overlay-cancel-overlay-ctn-mini-ctn">
             <p class="user-add-item-overlay-cancel-overlay-ctn-main-ctn-name">
                 Cancel
