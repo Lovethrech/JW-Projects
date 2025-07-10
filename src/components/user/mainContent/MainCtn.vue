@@ -1,4 +1,5 @@
 <script setup>
+import { storeToRefs } from 'pinia';
 import { useUserAddItemOverlayModalStore } from '@/stores/userAddItemOverlayModal';
 import ItemMainListCtn from './ItemMainListCtn.vue';
 import AddItemTab from './AddItemTab.vue';
@@ -6,7 +7,8 @@ import MainCatalogListNavCtn from './MainCatalogListNavCtn.vue';
 import MainCatalogBoxCtn from './MainCatalogBoxCtn.vue';
 import AddItemOverlayMainCtn from "@/components/user/addItemOverlay/MainCtn.vue";
 
-const {showUserAdditemOverlayDefaultState}=useUserAddItemOverlayModalStore();
+const userAddItemOverlayModalStore=useUserAddItemOverlayModalStore();
+const { showUserAdditemOverlayDefaultState }=storeToRefs(userAddItemOverlayModalStore);
 </script>
 
 <template>
@@ -18,7 +20,7 @@ const {showUserAdditemOverlayDefaultState}=useUserAddItemOverlayModalStore();
             </header> 
             <main class="user-main-content-main-ctn-mini-ctn-main-body">
                 <MainCatalogListNavCtn></MainCatalogListNavCtn>
-                <AddItemOverlayMainCtn ></AddItemOverlayMainCtn>
+                <AddItemOverlayMainCtn v-if="showUserAdditemOverlayDefaultState"></AddItemOverlayMainCtn>
                 <MainCatalogBoxCtn></MainCatalogBoxCtn>
             </main>
         </div>
