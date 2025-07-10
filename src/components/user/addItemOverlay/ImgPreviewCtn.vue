@@ -1,9 +1,7 @@
 <script setup>
-import { storeToRefs } from 'pinia';
 import { useOverlayImageUploadToggleStore } from '@/stores/overlayImageUploadToggle';
 
-const overlayImageUploadToggleStore=useOverlayImageUploadToggleStore();
-const {inputImgUrl}=storeToRefs(overlayImageUploadToggleStore);
+const {inputImgUrl}=useOverlayImageUploadToggleStore();
 console.log(inputImgUrl.value);
 </script>
 

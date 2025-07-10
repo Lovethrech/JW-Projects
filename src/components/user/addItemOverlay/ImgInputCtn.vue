@@ -5,7 +5,7 @@ import ImgPreviewEmptyCtn from './ImgPreviewEmptyCtn.vue';
 import ImgPreviewCtn from './ImgPreviewCtn.vue';
 
 const overlayImageUploadToggleStore=useOverlayImageUploadToggleStore();
-// const {handleImageUpload}=useOverlayImageUploadToggleStore();
+const {showInputtedImage}=useOverlayImageUploadToggleStore();
 const {inputImgUrl}=storeToRefs(overlayImageUploadToggleStore);
 </script>
 
@@ -13,11 +13,11 @@ const {inputImgUrl}=storeToRefs(overlayImageUploadToggleStore);
     <div class="user-add-item-overlay-img-input-ctn-main-ctn">
         <label for="user-add-item-overlay-img-input-ctn-main-ctn-image-upload" @click="handleImageUpload">
             <div class="img-preview">
-                <ImgPreviewEmptyCtn v-if="!imageUrl"></ImgPreviewEmptyCtn>
+                <ImgPreviewEmptyCtn v-if="!showInputtedImage"></ImgPreviewEmptyCtn>
                 <ImgPreviewCtn v-else></ImgPreviewCtn>
             </div>
         </label>
-        <input v-model="inputImgUrl" type="file" accept="image/*" id="user-add-item-overlay-img-input-ctn-main-ctn-image-upload"/>
+        <input :value="inputImgUrl" type="file" accept="image/*" id="user-add-item-overlay-img-input-ctn-main-ctn-image-upload"/>
     </div>
 </template>
 
