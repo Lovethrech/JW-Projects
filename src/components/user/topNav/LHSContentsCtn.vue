@@ -27,5 +27,7 @@
 }
 .lhs-content-ctn-main-ctn-title{
     margin: auto 0;
+    font-size:22px;
+    font-weight:500;
 }
 </style>
