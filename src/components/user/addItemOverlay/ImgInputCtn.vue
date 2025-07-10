@@ -5,5 +5,7 @@
 </template>
 
 <style scoped>
-
+.user-add-item-overlay-img-input-ctn-main-ctn{
+    display:none;
+}
 </style>

@@ -1,13 +1,17 @@
 <script setup>
 import ImgInputCtn from './ImgInputCtn.vue';
-import ImgPreviewCtn from './ImgPreviewCtn.vue';
+import ImgPreviewEmptyCtn from './ImgPreviewEmptyCtn.vue';
 </script>
 
 <template>
     <div class="user-add-item-overlay-upload-product-img-main-ctn">
         <div class="user-add-item-overlay-upload-product-img-mini-ctn">
             <ImgInputCtn></ImgInputCtn>
-            <ImgPreviewCtn></ImgPreviewCtn>
+            <div class="img-preview">
+                <ImgPreviewEmptyCtn></ImgPreviewEmptyCtn>
+                
+            </div>
+            
         </div>
     </div>
 </template>
