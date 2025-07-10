@@ -9,7 +9,6 @@
         "id":"2",
         "name":"product type",
         "nameFor":"productType",
-        "nameType":"text",
         "options":[
             {
                 "id":"1",
@@ -33,7 +32,6 @@
         "id":"3",
         "name":"received date",
         "nameFor":"receivedDate",
-        "nameType":"date",
         "options":[
             {
                 "id":"1",
@@ -45,7 +43,6 @@
         "id":"4",
         "name":"expiry date",
         "nameFor":"expiryDate",
-        "nameType":"date",
         "options":[
             {
                 "id":"1",
@@ -57,7 +54,6 @@
         "id":"5",
         "name":"number of item",
         "nameFor":"numberOfItem",
-        "nameType":"text",
         "options":[
             {
                 "id":"1",
@@ -69,7 +65,6 @@
         "id":"6",
         "name":"number of carton",
         "nameFor":"numberOfCarton",
-        "nameType":"text",
         "options":[
             {
                 "id":"1",
@@ -93,7 +88,6 @@
         "id":"9",
         "name":"location",
         "nameFor":"location",
-        "nameType":"text",
         "options":[
             {
                 "id":"1",
@@ -105,7 +99,6 @@
         "id":"10",
         "name":"",
         "nameFor":"",
-        "nameType":"",
         "options":[{}]
     }
 ]

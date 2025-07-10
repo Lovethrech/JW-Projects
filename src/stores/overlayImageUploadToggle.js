@@ -13,5 +13,9 @@ export const useOverlayImageUploadToggleStore = defineStore('overlayImageUploadT
         }
     }
 
+    // document.getElementById('image-container').addEventListener('click',()=>{
+    //     document.getElementById('image-input').click();
+    // });
+
     return {imageUrl, handleImageUpload};
 });

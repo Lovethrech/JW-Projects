@@ -14,7 +14,6 @@ const {name, nameFor, nameType, nameOptions}=defineProps(['name', 'nameFor', 'na
             </label>
             <select 
                 :id="nameFor"
-                :type="nameType"
                 class="user-add-item-overlay-input-drop-mini-ctn-input"
             >
                 <option :value="nameOptions[0].id" class="user-add-item-overlay-input-drop-mini-ctn-input-option">
