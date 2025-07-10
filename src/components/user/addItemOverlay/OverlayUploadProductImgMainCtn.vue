@@ -9,7 +9,7 @@ const {imageUrl}=storeToRefs(overlayImageUploadToggleStore);
 </script>
 
 <template>
-    <div class="user-add-item-overlay-upload-product-img-main-ctn" id="image-container">
+    <div class="user-add-item-overlay-upload-product-img-main-ctn">
         <div class="user-add-item-overlay-upload-product-img-mini-ctn">
             <ImgInputCtn></ImgInputCtn>
         </div>

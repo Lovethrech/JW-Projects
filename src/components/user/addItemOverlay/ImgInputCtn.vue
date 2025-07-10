@@ -19,7 +19,6 @@ import ImgPreviewCtn from './ImgPreviewCtn.vue';
 .user-add-item-overlay-img-input-ctn-main-ctn{
     width:100%;
     height:100%;
-    display:block;
 }
 .user-add-item-overlay-img-input-ctn-main-ctn input{
     display:none;
