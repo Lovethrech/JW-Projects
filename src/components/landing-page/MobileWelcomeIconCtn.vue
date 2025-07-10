@@ -7,7 +7,7 @@ const { shiftTab }= useWelcomeTabToggleStore();
 <template>
     <div class="mobile-welcome-icon-ct">
         <div class="mobile-welcome-icon-ct-mini-ctn" @click="shiftTab">
-            <img src="@/components/Icons/arrow-small-right.svg" alt="/welcome tab icon">
+            <!-- <img src="@/components/Icons/arrow-small-right.svg" alt="/welcome tab icon"> -->
         </div>
     </div>
 </template>

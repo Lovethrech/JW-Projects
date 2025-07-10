@@ -32,6 +32,8 @@
     width:40px;
     height:40px;
     background-color: #ededed;
+    color:#4d35d3;
+    font-size:20px;
     padding:10px;
     border-radius: 10px;
 }

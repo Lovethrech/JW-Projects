@@ -31,6 +31,8 @@ const {showUserAdditemOverlayActiveState}=useUserAddItemOverlayModalStore();
 }
 .user-main-content-add-item-tab-main-ctn-icon-ctn{
     background-color: #ededed;
+    color: #4d35d3;
+    font-size:18px;
     padding:10px;
 }
 .user-main-content-add-item-tab-main-ctn-icon-ctn:hover{

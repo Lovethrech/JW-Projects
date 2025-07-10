@@ -31,6 +31,8 @@ const {showUserAdditemOverlayActiveState}=useUserAddItemOverlayModalStore();
     cursor:pointer;
 }
 .main-catalog-box-empty-ctn-mini-ctn-icon-ctn{
+    color: hsla(0, 0%, 0%, 0.596);
+    font-size: 24px;
     width:100%;
     display:flex;
     justify-content: center;

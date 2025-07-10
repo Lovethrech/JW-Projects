@@ -17,6 +17,7 @@
     flex-direction: row;
 }
 .user-search-ctn-main-ctn-icon-ctn{
+    color:#d9d9d9;
     margin-right:-26px;
     display:flex;
     place-items: center;
