@@ -11,8 +11,8 @@ const {triggerImageUpload, previewUrl}=useOverlayImageUploadToggleStore();
         <div class="user-add-item-overlay-upload-product-img-mini-ctn">
             <ImgInputCtn></ImgInputCtn>
             <div class="img-preview">
-                <ImgPreviewEmptyCtn></ImgPreviewEmptyCtn>
-                <ImgPreviewCtn></ImgPreviewCtn>
+                <ImgPreviewEmptyCtn v-if="!previewUrl"></ImgPreviewEmptyCtn>
+                <ImgPreviewCtn v-else></ImgPreviewCtn>
             </div>
             
         </div>
