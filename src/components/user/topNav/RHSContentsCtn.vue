@@ -10,7 +10,7 @@
                 </div>
             </div>
             <div class="rhs-content-ctn-main-ctn-user-img-ctn">
-                <img src="/public/avatar.png" alt=""/>
+                <img src="/avatar.png" srcset="/avatar.png 40w" alt=""/>
             </div>
         </div>
     </div>

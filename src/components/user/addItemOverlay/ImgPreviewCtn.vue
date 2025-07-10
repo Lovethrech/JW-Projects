@@ -4,6 +4,7 @@ import { useOverlayImageUploadToggleStore } from '@/stores/overlayImageUploadTog
 
 const overlayImageUploadToggleStore=useOverlayImageUploadToggleStore();
 const {imageUrl}=storeToRefs(overlayImageUploadToggleStore);
+console.log(imageUrl.value);
 </script>
 
 <template>
