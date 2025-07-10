@@ -23,7 +23,6 @@ import ImgPreviewCtn from './ImgPreviewCtn.vue';
 }
 .user-add-item-overlay-img-input-ctn-main-ctn input{
     display:none;
-    background-color:red;
 }
 .user-add-item-overlay-img-input-ctn-main-ctn label{
     width:100%;
