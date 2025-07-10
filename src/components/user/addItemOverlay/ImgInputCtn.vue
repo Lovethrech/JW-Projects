@@ -3,3 +3,7 @@
         <input type="file" accept="image/*"/>
     </div>
 </template>
+
+<style scoped>
+
+</style>
