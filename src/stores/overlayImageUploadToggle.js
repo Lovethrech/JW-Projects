@@ -5,11 +5,12 @@ export const useOverlayImageUploadToggleStore = defineStore('overlayImageUploadT
     // const imageUrl = ref('');
     const inputImgUrl=ref("");
     const showInputtedImage=ref(false);
-    
 
-    // document.getElementById('image-container').addEventListener('click',()=>{
-    //     document.getElementById('image-input').click();
-    // });
+    const handleImageUpload=()=>{
+        if (inputImgUrl.value===""){
+            showInputtedImage.value=true;
+        }
+    }
 
     return {inputImgUrl, showInputtedImage};
 });
