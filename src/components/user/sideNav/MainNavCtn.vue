@@ -3,7 +3,7 @@ import { useSideNavActiveToggleStore } from "@/stores/sideNavActiveToggle";
 import userSideNavContents from "@/data/user-side-nav-contents.json";
 import Nav from './Nav.vue';
 
-const {homeStyle, integrateStyle, reportStyle}=useSideNavActiveToggleStore();
+const {homeStyle, integrateStyle, reportStyle, sideNavHomeClick, sideNavIntegrateClick, sideNavReportClick}=useSideNavActiveToggleStore();
 </script>
 
 <template>
@@ -15,6 +15,7 @@ const {homeStyle, integrateStyle, reportStyle}=useSideNavActiveToggleStore();
                 :iconName="userSideNavContents[0].iconName"
                 :link="userSideNavContents[0].link"
                 :style="homeStyle"
+                @click="sideNavHomeClick"
             >
             </Nav>
             <Nav
@@ -23,6 +24,7 @@ const {homeStyle, integrateStyle, reportStyle}=useSideNavActiveToggleStore();
                 :iconName="userSideNavContents[1].iconName"
                 :link="userSideNavContents[1].link"
                 :style="integrateStyle"
+                @click="sideNavIntegrateClick"
             >
             </Nav>
             <Nav
@@ -31,6 +33,7 @@ const {homeStyle, integrateStyle, reportStyle}=useSideNavActiveToggleStore();
                 :iconName="userSideNavContents[2].iconName"
                 :link="userSideNavContents[2].link"
                 :style="reportStyle"
+                @click="sideNavReportClick"
             >
             </Nav>
         </div>

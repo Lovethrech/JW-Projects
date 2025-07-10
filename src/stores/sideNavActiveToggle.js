@@ -10,25 +10,22 @@ export const useSideNavActiveToggleStore = defineStore('sideNavActiveToggle', ()
     const reportStyle=ref({backgroundColor: defaultBgColor});
 
     const resetStyles=()=>{
-        homeStyle.value.backgroundColor=activeBgColor;
+        homeStyle.value.backgroundColor=defaultBgColor;
         integrateStyle.value.backgroundColor=defaultBgColor;
         reportStyle.value.backgroundColor=defaultBgColor;
+    };
+
+    const sideNavHomeClick=()=>{
+        resetStyles();
+        homeStyle.value.backgroundColor=activeBgColor;
+    };
+    const sideNavIntegrateClick=()=>{
+        resetStyles();
+        integrateStyle.value.backgroundColor=activeBgColor;
+    };
+    const sideNavReportClick=()=>{
+        resetStyles();
+        reportStyle.value.backgroundColor=activeBgColor;
     }
-    // const defaultMargin = "0";
-    // const activeMargin = "-100vw";
-
-    // const WelcomeTabActive = ref({ marginLeft: defaultMargin});
-    // const resetMargin = () => {
-    //     WelcomeTabActive.value.marginRight = defaultMargin;
-    // };
-
-    // const shiftTab=()=>{
-    //     if (WelcomeTabActive.value.marginRight===defaultMargin){
-    //         WelcomeTabActive.value.marginRight=activeMargin;
-    //     }
-    //     else{
-    //         resetMargin();
-    //     }
-    // }
-    return {homeStyle, integrateStyle, reportStyle};
+    return {homeStyle, integrateStyle, reportStyle, sideNavHomeClick, sideNavIntegrateClick, sideNavReportClick};
 });
