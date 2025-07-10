@@ -49,7 +49,7 @@ const {name, nameFor, nameType, nameOptions}=defineProps(['name', 'nameFor', 'na
     height:40px;
     padding:4px;
     font-size:16px;
-    border: 3px solid #d9d9d9;
+    border: 2px solid #d9d9d9;
     border-radius: 8px;
 }
 </style>

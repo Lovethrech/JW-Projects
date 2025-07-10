@@ -33,10 +33,10 @@ import UserAddItemOverlayInputMainCtn from "@/components/user/addItemOverlay/Ove
     place-items: center;
 }
 .user-add-item-overlay-main-ctn-mini-ctn{
-    background-color: #ededed;
+    background-color: #ffffff;
     width:90vw;
     height:100%;
-    padding:40px 60px;
+    padding:40px 6vw;
 }
 .user-add-item-overlay-main-ctn-mini-ctn-modal-title{
     font-size:34px;

@@ -28,14 +28,14 @@
     text-align:center;
 }
 .user-add-item-overlay-upload-product-img-mini-ctn-title{
-    
     text-transform: capitalize;
+    color:hsla(0, 0%, 0%, 0.418);
 }
 .user-add-item-overlay-upload-product-img-mini-ctn-title, .user-add-item-overlay-upload-product-img-mini-ctn-icon-ctn{
     font-size:22px;
 }
 .user-add-item-overlay-upload-product-img-mini-ctn-desc{
     font-size:12px;
-    color: hsla(0, 0%, 0%, 0.61);
+    color: hsla(0, 0%, 0%, 0.418);
 }
 </style>
