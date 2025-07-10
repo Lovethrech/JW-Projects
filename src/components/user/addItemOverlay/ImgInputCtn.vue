@@ -11,6 +11,15 @@ const {handleImageUpload}=useOverlayImageUploadToggleStore();
 
 <style scoped>
 .user-add-item-overlay-img-input-ctn-main-ctn{
+    position:absolute;
+    z-index:-1;
+    left:20vw;
+    margin-top:-5vh;
     display:block;
+    background-color: cornflowerblue;
+}
+.user-add-item-overlay-img-input-ctn-main-ctn input{
+    width: 60vw;
+    height:26vh;
 }
 </style>
