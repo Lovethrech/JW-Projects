@@ -14,7 +14,7 @@ const {imageUrl}=storeToRefs(overlayImageUploadToggleStore);
         <label for="user-add-item-overlay-img-input-ctn-main-ctn-image-upload" @click="handleImageUpload">
             <div class="img-preview">
                 <ImgPreviewEmptyCtn v-if="!imageUrl"></ImgPreviewEmptyCtn>
-                <ImgPreviewCtn v-else></ImgPreviewCtn>
+                <ImgPreviewCtn></ImgPreviewCtn>
             </div>
         </label>
         <input type="file" accept="image/*" id="user-add-item-overlay-img-input-ctn-main-ctn-image-upload"/>
