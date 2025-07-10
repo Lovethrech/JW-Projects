@@ -26,4 +26,9 @@ const {showUserAdditemOverlayActiveState}=useUserAddItemOverlayModalStore();
     border: 2px solid #4d35d3;
     border-radius: 10px;
 }
+.user-add-item-overlay-cancel-overlay-ctn-main-ctn:hover{
+    cursor:pointer;
+    transform: scale(0.98);
+    transition: all .2s;
+}
 </style>
