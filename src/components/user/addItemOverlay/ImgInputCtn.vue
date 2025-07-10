@@ -4,7 +4,7 @@ const {handleImageUpload}=useOverlayImageUploadToggleStore();
 </script>
 
 <template>
-    <div class="user-add-item-overlay-img-input-ctn-main-ctn" @change="handleImageUpload">
+    <div class="user-add-item-overlay-img-input-ctn-main-ctn" @click="handleImageUpload" id="image-input">
         <input type="file" accept="image/*"/>
     </div>
 </template>

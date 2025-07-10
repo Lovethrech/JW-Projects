@@ -15,7 +15,6 @@ const {imageUrl}=storeToRefs(overlayImageUploadToggleStore);
 <style scoped>
 .user-add-item-overlay-img-preview-ctn-main-ctn{
     width: 100px;
-    height: 100px;
     display: block;
     margin: auto;
     border-radius: 10px;
