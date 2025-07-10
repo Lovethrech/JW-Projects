@@ -4,13 +4,14 @@ import { defineStore } from 'pinia';
 export const useOverlayImageUploadToggleStore = defineStore('overlayImageUploadToggle', () => {
     // const imageUrl = ref('');
     const inputImgUrl=ref("");
-    const showInputtedImage=ref(false);
+    const showInputtedImage=ref(true);
 
     const handleImageUpload=()=>{
         if (inputImgUrl.value===""){
-            showInputtedImage.value=true;
+            showInputtedImage.value=false;
+            console.log(inputImgUrl);
         }
     }
 
-    return {inputImgUrl, showInputtedImage};
+    return {inputImgUrl, showInputtedImage, handleImageUpload};
 });
