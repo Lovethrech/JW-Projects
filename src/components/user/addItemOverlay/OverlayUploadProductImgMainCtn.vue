@@ -20,6 +20,7 @@ const {imageUrl}=storeToRefs(overlayImageUploadToggleStore);
 
 <style scoped>
 .user-add-item-overlay-upload-product-img-main-ctn{
+    cursor: pointer;
     width:100%;
     height:30vh;
     display:flex;
