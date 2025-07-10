@@ -23,10 +23,10 @@ const { name, img, iconName, link }=defineProps(['name', 'img', 'iconName', 'lin
     display:flex;
     justify-content: center;
     margin-bottom:5vh;
- }
+}
 .user-side-nav-btm-nav-main-ctn-mini-ctn{
-    width:70%;
-    padding:10px;
+    width:100%;
+    padding:10px 2vw;
     display:flex;
     flex-direction: row;
     gap:10px;

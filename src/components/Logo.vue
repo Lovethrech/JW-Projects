@@ -6,7 +6,7 @@
 
 <style scoped>
 .logo-main-ctn{
-    width: 80px;
+    width: 68px;
 }
 img{
     width:100%;
