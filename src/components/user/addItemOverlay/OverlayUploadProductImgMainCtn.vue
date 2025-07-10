@@ -1,6 +1,7 @@
 <script setup>
 import { storeToRefs } from 'pinia';
 import { useOverlayImageUploadToggleStore } from '@/stores/overlayImageUploadToggle';
+import ImgInputCtn from './ImgInputCtn.vue';
 import ImgPreviewEmptyCtn from './ImgPreviewEmptyCtn.vue';
 import ImgPreviewCtn from './ImgPreviewCtn.vue';
 
@@ -10,17 +11,21 @@ const {imageUrl}=storeToRefs(overlayImageUploadToggleStore);
 </script>
 
 <template>
-    <div class="user-add-item-overlay-upload-product-img-main-ctn" @change="handleImageUpload">
+    <div class="user-add-item-overlay-upload-product-img-main-ctn">
         <div class="user-add-item-overlay-upload-product-img-mini-ctn">
-            <ImgPreviewEmptyCtn v-if="!imageUrl"></ImgPreviewEmptyCtn>
-            <ImgPreviewCtn v-else></ImgPreviewCtn>            
+            <ImgInputCtn></ImgInputCtn>
+            <div class="img-preview">
+                <ImgPreviewEmptyCtn v-if="!imageUrl"></ImgPreviewEmptyCtn>
+                <ImgPreviewCtn v-else></ImgPreviewCtn>
+            </div>
+            
         </div>
     </div>
 </template>
 
 <style scoped>
 .user-add-item-overlay-upload-product-img-main-ctn{
-    cursor: pointer;
+    cursor:pointer;
     width:100%;
     height:30vh;
     display:flex;
