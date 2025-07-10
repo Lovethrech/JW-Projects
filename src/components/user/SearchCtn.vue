@@ -12,14 +12,15 @@
 .user-search-ctn-main-ctn, .user-search-ctn-mini-ctn{
     width:100%;
 }
-.user-search-ctn-mini-ctn{
+.user-search-ctn-mini-ctn, .user-search-ctn-main-ctn-icon-ctn{
     display:flex;
+}
+.user-search-ctn-mini-ctn{
     flex-direction: row;
 }
 .user-search-ctn-main-ctn-icon-ctn{
     color:#d9d9d9;
     margin-right:-26px;
-    display:flex;
     place-items: center;
 }
 .user-search-ctn-mini-ctn-input{

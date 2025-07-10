@@ -18,11 +18,13 @@ const {showUserAdditemOverlayActiveState}=useUserAddItemOverlayModalStore();
 </template>
 
 <style scoped>
+.main-catalog-box-empty-ctn-main-ctn, .main-catalog-box-empty-ctn-mini-ctn-icon-ctn{
+    display:flex;
+    justify-content: center;
+} 
 .main-catalog-box-empty-ctn-main-ctn{
     width:30%;
     height:30%;
-    display: flex;
-    justify-content: center;
     place-items:center;
     border: 1px dotted hsla(0, 0%, 0%, 0.644);
     border-radius:20px;
@@ -34,8 +36,6 @@ const {showUserAdditemOverlayActiveState}=useUserAddItemOverlayModalStore();
     color: hsla(0, 0%, 0%, 0.596);
     font-size: 24px;
     width:100%;
-    display:flex;
-    justify-content: center;
 }
 .main-catalog-box-empty-ctn-mini-ctn-icon-ctn img{
     width:20px;

@@ -28,19 +28,20 @@ const { showUserAdditemOverlayDefaultState }=storeToRefs(userAddItemOverlayModal
 </template>
 
 <style scoped>
-.user-main-content-main-ctn-mini-ctn{
+.user-main-content-main-ctn-mini-ctn, .user-main-content-main-ctn-mini-ctn-header, .user-main-content-main-ctn-mini-ctn-main-body{
     display:flex;
+}
+.user-main-content-main-ctn-mini-ctn, .user-main-content-main-ctn-mini-ctn-main-body{
     flex-direction: column;
 }
+.user-main-content-main-ctn-mini-ctn-header, .user-main-content-main-ctn-mini-ctn-main-body{
+    justify-content: space-between;
+}
 .user-main-content-main-ctn-mini-ctn-header{
-    display:flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .user-main-content-main-ctn-mini-ctn-main-body{
     margin:3vh 0;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 </style>

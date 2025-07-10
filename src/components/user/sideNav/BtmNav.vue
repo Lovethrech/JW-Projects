@@ -18,16 +18,19 @@ const { name, img, iconName, link }=defineProps(['name', 'img', 'iconName', 'lin
 </template>
 
 <style scoped>
+.user-side-nav-btm-nav-main-ctn, .user-side-nav-btm-nav-main-ctn-mini-ctn{
+    display:flex;
+}
 .user-side-nav-btm-nav-main-ctn{
     width:100%;
-    display:flex;
     justify-content: center;
     margin-bottom:5vh;
 }
-.user-side-nav-btm-nav-main-ctn-mini-ctn{
+.user-side-nav-btm-nav-main-ctn-mini-ctn,  .user-side-nav-btm-nav-main-ctn img{
     width:100%;
+}
+.user-side-nav-btm-nav-main-ctn-mini-ctn{
     padding:10px 2vw;
-    display:flex;
     flex-direction: row;
     gap:10px;
 }
@@ -36,7 +39,6 @@ const { name, img, iconName, link }=defineProps(['name', 'img', 'iconName', 'lin
     height:16px;
 }
 .user-side-nav-btm-nav-main-ctn img{
-    width:100%;
     height:100%;
 }
 .user-side-nav-title{
