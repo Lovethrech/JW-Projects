@@ -4,11 +4,11 @@ import { defineStore } from 'pinia';
 export const useUserAddItemOverlayModalStore = defineStore('userAddItemOverlayModal', () => {
     const showUserAdditemOverlayDefaultState=ref(false);
     
-    // const showUserAdditemOverlayActiveState=()=>{
-    //     if (showUserAdditemOverlayDefaultState.value==="none"){
-    //         showUserAdditemOverlayDefaultState.value="block";
-    //     }
-    // }
+    const showUserAdditemOverlayActiveState=()=>{
+        if (showUserAdditemOverlayDefaultState.value===false){
+            showUserAdditemOverlayDefaultState.value=true;
+        }
+    }
     // const defaultMargin = "0";
     // const activeMargin = "-100vw";
 
@@ -18,5 +18,5 @@ export const useUserAddItemOverlayModalStore = defineStore('userAddItemOverlayMo
     // };
 
     
-    return {showUserAdditemOverlayDefaultState};
+    return {showUserAdditemOverlayDefaultState, showUserAdditemOverlayActiveState};
 });

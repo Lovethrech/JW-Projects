@@ -1,5 +1,7 @@
 <script setup>
 import { useUserAddItemOverlayModalStore } from '@/stores/userAddItemOverlayModal';
+
+const {showUserAdditemOverlayActiveState}=useUserAddItemOverlayModalStore();
 </script>
 
 <template>
@@ -8,7 +10,7 @@ import { useUserAddItemOverlayModalStore } from '@/stores/userAddItemOverlayModa
             <p class="user-main-content-add-item-tab-main-ctn-title">
                 Add Item
             </p>
-            <div class="user-main-content-add-item-tab-main-ctn-icon-ctn" @click="showUserAdditemOverlayDefaultState">
+            <div class="user-main-content-add-item-tab-main-ctn-icon-ctn" @click="showUserAdditemOverlayActiveState">
                 <i class="ri-folder-add-line"></i>
             </div>
         </div>
