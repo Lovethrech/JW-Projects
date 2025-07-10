@@ -3,6 +3,7 @@ import userAddItemOverlayInputDetails from "@/data/user-add-item-overlay-input-d
 import OverlayInput from './OverlayInput.vue';
 import OverlayInputDrop from './OverlayInputDrop.vue';
 import OverlayUploadProductImgMainCtn from "./OverlayUploadProductImgMainCtn.vue";
+import ItemBtnMainCtn from "./ItemBtnMainCtn.vue";
 </script>
 
 <template>
@@ -81,6 +82,7 @@ import OverlayUploadProductImgMainCtn from "./OverlayUploadProductImgMainCtn.vue
             <br/>
             <OverlayUploadProductImgMainCtn></OverlayUploadProductImgMainCtn>
         </div>
+        <ItemBtnMainCtn></ItemBtnMainCtn>
     </div>
 </template>
 
