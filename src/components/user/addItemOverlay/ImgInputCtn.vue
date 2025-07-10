@@ -5,8 +5,8 @@ import ImgPreviewEmptyCtn from './ImgPreviewEmptyCtn.vue';
 import ImgPreviewCtn from './ImgPreviewCtn.vue';
 
 const overlayImageUploadToggleStore=useOverlayImageUploadToggleStore();
-const {handleImageUpload}=useOverlayImageUploadToggleStore();
-const {imageUrl}=storeToRefs(overlayImageUploadToggleStore);
+// const {handleImageUpload}=useOverlayImageUploadToggleStore();
+const {inputImgUrl}=storeToRefs(overlayImageUploadToggleStore);
 </script>
 
 <template>

@@ -3,13 +3,13 @@ import { storeToRefs } from 'pinia';
 import { useOverlayImageUploadToggleStore } from '@/stores/overlayImageUploadToggle';
 
 const overlayImageUploadToggleStore=useOverlayImageUploadToggleStore();
-const {imageUrl}=storeToRefs(overlayImageUploadToggleStore);
-console.log(imageUrl.value);
+const {inputImgUrl}=storeToRefs(overlayImageUploadToggleStore);
+console.log(inputImgUrl.value);
 </script>
 
 <template>
     <div class="user-add-item-overlay-img-preview-ctn-main-ctn">
-        <img :src="imageUrl" alt="Uploaded Image">
+        <img :src="inputImgUrl" alt="Uploaded Image">
     </div>
 </template>
 
