@@ -32,7 +32,7 @@
     text-transform: capitalize;
 }
 .user-add-item-overlay-upload-product-img-mini-ctn-title, .user-add-item-overlay-upload-product-img-mini-ctn-icon-ctn{
-    font-size:18px;
+    font-size:22px;
 }
 .user-add-item-overlay-upload-product-img-mini-ctn-desc{
     font-size:12px;
