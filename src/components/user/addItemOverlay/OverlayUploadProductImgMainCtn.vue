@@ -12,10 +12,6 @@ const {imageUrl}=storeToRefs(overlayImageUploadToggleStore);
     <div class="user-add-item-overlay-upload-product-img-main-ctn" id="image-container">
         <div class="user-add-item-overlay-upload-product-img-mini-ctn">
             <ImgInputCtn></ImgInputCtn>
-            <div class="img-preview">
-                <ImgPreviewEmptyCtn v-if="!imageUrl"></ImgPreviewEmptyCtn>
-                <ImgPreviewCtn v-else></ImgPreviewCtn>
-            </div>
         </div>
     </div>
 </template>
@@ -32,6 +28,8 @@ const {imageUrl}=storeToRefs(overlayImageUploadToggleStore);
     border-radius: 20px;;
 }
 .user-add-item-overlay-upload-product-img-mini-ctn{
+    width:100%;
+    height:100%;
     text-align:center;
 }
 </style>

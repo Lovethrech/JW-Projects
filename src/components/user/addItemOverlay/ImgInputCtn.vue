@@ -17,19 +17,17 @@ import ImgPreviewCtn from './ImgPreviewCtn.vue';
 
 <style scoped>
 .user-add-item-overlay-img-input-ctn-main-ctn{
+    width:100%;
+    height:100%;
     display:block;
-    background-color: #000;
 }
 .user-add-item-overlay-img-input-ctn-main-ctn input{
     display:none;
     background-color:red;
 }
 .user-add-item-overlay-img-input-ctn-main-ctn label{
-    position:absolute;
-    left:11vw;
-    bottom:18vh;
-    width:77vw;
-    height:290px;
+    width:100%;
+    height:100%;
     background-color:transparent;
     display:flex;
     justify-content:center;
