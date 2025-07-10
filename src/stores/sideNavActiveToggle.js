@@ -8,6 +8,12 @@ export const useSideNavActiveToggleStore = defineStore('sideNavActiveToggle', ()
     const homeStyle=ref({backgroundColor: activeBgColor});
     const integrateStyle=ref({backgroundColor: defaultBgColor});
     const reportStyle=ref({backgroundColor: defaultBgColor});
+
+    const resetStyles=()=>{
+        homeStyle.value.backgroundColor=activeBgColor;
+        integrateStyle.value.backgroundColor=defaultBgColor;
+        reportStyle.value.backgroundColor=defaultBgColor;
+    }
     // const defaultMargin = "0";
     // const activeMargin = "-100vw";
 
