@@ -1,5 +1,11 @@
+<script setup>
+import { useUserAddItemOverlayModalStore } from '@/stores/userAddItemOverlayModal';
+
+const {showUserAdditemOverlayActiveState}=useUserAddItemOverlayModalStore();
+</script>
+
 <template>
-    <div class="main-catalog-box-empty-ctn-main-ctn">
+    <div class="main-catalog-box-empty-ctn-main-ctn" @click="showUserAdditemOverlayActiveState">
         <div class="main-catalog-box-empty-ctn-mini-ctn">
             <div class="main-catalog-box-empty-ctn-mini-ctn-icon-ctn">
                 <i class="ri-folder-add-line"></i>

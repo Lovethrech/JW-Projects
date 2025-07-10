@@ -8,15 +8,6 @@ export const useUserAddItemOverlayModalStore = defineStore('userAddItemOverlayMo
         if (showUserAdditemOverlayDefaultState.value===false){
             showUserAdditemOverlayDefaultState.value=true;
         }
-    }
-    // const defaultMargin = "0";
-    // const activeMargin = "-100vw";
-
-    // const WelcomeTabActive = ref({ marginLeft: defaultMargin});
-    // const resetMargin = () => {
-    //     WelcomeTabActive.value.marginRight = defaultMargin;
-    // };
-
-    
+    }    
     return {showUserAdditemOverlayDefaultState, showUserAdditemOverlayActiveState};
 });
