@@ -1,11 +1,5 @@
 <script setup>
-import { storeToRefs } from 'pinia';
-import { useOverlayImageUploadToggleStore } from '@/stores/overlayImageUploadToggle';
 import ImgInputCtn from './ImgInputCtn.vue';
-
-const overlayImageUploadToggleStore=useOverlayImageUploadToggleStore();
-const {handleImageUpload}=useOverlayImageUploadToggleStore();
-const {imageUrl}=storeToRefs(overlayImageUploadToggleStore);
 </script>
 
 <template>

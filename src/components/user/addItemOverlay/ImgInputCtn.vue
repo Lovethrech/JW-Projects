@@ -1,11 +1,17 @@
 <script setup>
+import { storeToRefs } from 'pinia';
+import { useOverlayImageUploadToggleStore } from '@/stores/overlayImageUploadToggle';
 import ImgPreviewEmptyCtn from './ImgPreviewEmptyCtn.vue';
 import ImgPreviewCtn from './ImgPreviewCtn.vue';
+
+const overlayImageUploadToggleStore=useOverlayImageUploadToggleStore();
+const {handleImageUpload}=useOverlayImageUploadToggleStore();
+const {imageUrl}=storeToRefs(overlayImageUploadToggleStore);
 </script>
 
 <template>
     <div class="user-add-item-overlay-img-input-ctn-main-ctn">
-        <label for="user-add-item-overlay-img-input-ctn-main-ctn-image-upload">
+        <label for="user-add-item-overlay-img-input-ctn-main-ctn-image-upload" @click="handleImageUpload">
             <div class="img-preview">
                 <ImgPreviewEmptyCtn v-if="!imageUrl"></ImgPreviewEmptyCtn>
                 <ImgPreviewCtn v-else></ImgPreviewCtn>
