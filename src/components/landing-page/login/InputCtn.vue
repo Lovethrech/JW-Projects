@@ -15,6 +15,7 @@ const {name, nameFor,nameType}=defineProps(['name', 'nameFor', 'nameType']);
         <input 
             :id="nameFor"
             :type="nameType"
+            required
         />
     </div>
 </template>
