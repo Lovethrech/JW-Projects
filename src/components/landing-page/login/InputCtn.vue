@@ -1,7 +1,10 @@
 <script setup>
 import { ref, defineProps } from "vue";
+import { useGetLoginDetailsStore } from "@/stores/getLoginDetails";
 
 const {name, nameFor,nameType}=defineProps(['name', 'nameFor', 'nameType']);
+const {loginValue}=useGetLoginDetailsStore();
+console.log(loginValue);
 </script>
 
 <template>
