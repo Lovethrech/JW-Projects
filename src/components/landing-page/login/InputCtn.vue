@@ -12,7 +12,8 @@ const {name, nameFor,nameType}=defineProps(['name', 'nameFor', 'nameType']);
         >
             {{name}}
         </label>
-        <input 
+        <input  
+            v-model="loginValue"
             :id="nameFor"
             :type="nameType"
             required
