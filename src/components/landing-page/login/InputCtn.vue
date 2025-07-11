@@ -16,7 +16,7 @@ console.log(loginValue);
             {{name}}
         </label>
         <input  
-            v-model="loginValue"
+            :v-model="name"
             :id="nameFor"
             :type="nameType"
             required
