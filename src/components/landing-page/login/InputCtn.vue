@@ -3,8 +3,8 @@ import { ref, defineProps } from "vue";
 import { useGetLoginDetailsStore } from "@/stores/getLoginDetails";
 
 const {name, nameFor,nameType}=defineProps(['name', 'nameFor', 'nameType']);
-const {loginValue}=useGetLoginDetailsStore();
-console.log(loginValue);
+const {email}=useGetLoginDetailsStore();
+console.log(email);
 </script>
 
 <template>
