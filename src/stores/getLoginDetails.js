@@ -3,7 +3,7 @@ import { defineStore } from 'pinia';
 
 export const useGetLoginDetailsStore = defineStore('getLoginDetails', () => {
     const email=ref('nameE');
-    const password=ref('nameP')
+    const password=ref('nameP');
 
     return {email};
 });
