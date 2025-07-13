@@ -20,12 +20,7 @@ import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
                     <label :for="authPageContents[0].contents[1].nameFor" class="input-ctn-name">{{authPageContents[0].contents[1].name}}</label>
                     <input  :id="authPageContents[0].contents[1].nameFor" :type="authPageContents[0].contents[1].nameType" required/>
                 </div><br/>
-                <br/>
-                <div class="input-ctn">
-                    <label :for="" class="input-ctn-name">{{}}</label>
-                    <input  :id="" :type="" required/>
-                </div>
-                
+                <br/>                
                 <SubmitCtn
                     :name="authPageContents[0].contents[2].name"
                     :nameFor="authPageContents[0].contents[2].nameFor"
