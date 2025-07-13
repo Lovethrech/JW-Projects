@@ -4,7 +4,7 @@ import authPageContents from '@/data/auth-page-contents.json';
 import ContentDescCtn from './ContentDescCtn.vue';
 import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
 
-const {email, password}=useGetLoginDetailsStore();
+const {email, password, submitLoginDetails}=useGetLoginDetailsStore();
 console.log(email, password);
 </script>
 
@@ -29,6 +29,7 @@ console.log(email, password);
                     :nameFor="authPageContents[0].contents[2].nameFor"
                     :nameType="authPageContents[0].contents[2].nameType"
                     :nameLink="authPageContents[0].contents[2].nameLink"
+                    @click="submitLoginDetails"
                 >
                 </SubmitCtn>
             </form>

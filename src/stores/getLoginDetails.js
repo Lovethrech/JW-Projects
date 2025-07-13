@@ -5,5 +5,11 @@ export const useGetLoginDetailsStore = defineStore('getLoginDetails', () => {
     const email=ref('nameE');
     const password=ref('namePassowrd');
 
-    return {email, password};
+    const submitLoginDetails=()=>{
+        if ((email.value==="")&&(password.value="")){
+
+        }
+    }
+
+    return {email, password, submitLoginDetails};
 });
