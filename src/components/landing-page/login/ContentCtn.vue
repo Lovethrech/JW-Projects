@@ -16,13 +16,13 @@ console.log(email, password);
             <form class="form">
                 <div class="input-ctn">
                     <label :for="authPageContents[0].contents[0].nameFor" class="input-ctn-name">{{authPageContents[0].contents[0].name}}</label>
-                    <input  :id="authPageContents[0].contents[0].nameFor" :type="authPageContents[0].contents[0].nameType" required/>
+                    <input v-model="email" :id="authPageContents[0].contents[0].nameFor" :type="authPageContents[0].contents[0].nameType" required/>
                 </div><br/>
                 <br/>
 
                 <div class="input-ctn">
                     <label :for="authPageContents[0].contents[1].nameFor" class="input-ctn-name">{{authPageContents[0].contents[1].name}}</label>
-                    <input  :id="authPageContents[0].contents[1].nameFor" :type="authPageContents[0].contents[1].nameType" required/>
+                    <input v-model="password" :id="authPageContents[0].contents[1].nameFor" :type="authPageContents[0].contents[1].nameType" required/>
                 </div><br/>
                 <br/>                
                 <SubmitCtn
