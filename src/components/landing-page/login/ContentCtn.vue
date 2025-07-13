@@ -14,6 +14,7 @@ import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
                     :name="authPageContents[0].contents[0].name"
                     :nameFor="authPageContents[0].contents[0].nameFor"
                     :nameType="authPageContents[0].contents[0].nameType"
+                    v-model="email"
                 >
                 </InputCtn>
                 <br/>

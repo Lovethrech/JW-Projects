@@ -16,7 +16,6 @@ console.log(email, password);
             {{name}}
         </label>
         <input  
-            v-model="email"
             :id="nameFor"
             :type="nameType"
             required
