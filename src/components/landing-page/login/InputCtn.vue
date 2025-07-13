@@ -9,16 +9,7 @@ console.log(email, password);
 
 <template>
     <div class="input-ctn">
-        <label 
-            :for="nameFor" 
-            class="input-ctn-name"
-        >
-            {{name}}
-        </label>
-        <input  
-            :id="nameFor"
-            :type="nameType"
-            required
-        />
+        <label :for="nameFor" class="input-ctn-name">{{name}}</label>
+        <input  :id="nameFor" :type="nameType" required/>
     </div>
 </template>

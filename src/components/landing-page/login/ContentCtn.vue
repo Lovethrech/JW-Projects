@@ -10,8 +10,22 @@ import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
         <div class="content-ctn-mini-ctn">
             <ContentDescCtn></ContentDescCtn>
             <form class="form">
+                <div class="input-ctn">
+                    <label :for="" class="input-ctn-name">{{:name="authPageContents[0].contents[0].name}}</label>
+                    <input  :id="" :type="" required/>
+                </div>
+
+                <div class="input-ctn">
+                    <label :for="" class="input-ctn-name">{{}}</label>
+                    <input  :id="" :type="" required/>
+                </div>
+                <div class="input-ctn">
+                    <label :for="" class="input-ctn-name">{{}}</label>
+                    <input  :id="" :type="" required/>
+                </div>
+
                 <InputCtn
-                    :name="authPageContents[0].contents[0].name"
+                    "
                     :nameFor="authPageContents[0].contents[0].nameFor"
                     :nameType="authPageContents[0].contents[0].nameType"
                     v-model="email"
