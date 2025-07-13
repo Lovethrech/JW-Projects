@@ -2,7 +2,6 @@
 import { useGetLoginDetailsStore } from "@/stores/getLoginDetails";
 import authPageContents from '@/data/auth-page-contents.json';
 import ContentDescCtn from './ContentDescCtn.vue';
-import InputCtn from './InputCtn.vue';
 import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
 
 const {email, password}=useGetLoginDetailsStore();
