@@ -4,7 +4,7 @@ import authPageContents from '@/data/auth-page-contents.json';
 import ContentDescCtn from './ContentDescCtn.vue';
 import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
 
-const {email, password, submitLoginDetails}=useGetLoginDetailsStore();
+const {email, password,inputCtnBorderAlertStyle, submitLoginDetails}=useGetLoginDetailsStore();
 console.log(email, password);
 </script>
 
@@ -15,13 +15,13 @@ console.log(email, password);
             <form class="form">
                 <div class="input-ctn">
                     <label :for="authPageContents[0].contents[0].nameFor" class="input-ctn-name">{{authPageContents[0].contents[0].name}}</label>
-                    <input v-model="email" :id="authPageContents[0].contents[0].nameFor" :type="authPageContents[0].contents[0].nameType" required/>
+                    <input v-model="email" :id="authPageContents[0].contents[0].nameFor" :type="authPageContents[0].contents[0].nameType" :style="{border: inputCtnBorderAlertStyle}" required/>
                 </div><br/>
                 <br/>
 
                 <div class="input-ctn">
                     <label :for="authPageContents[0].contents[1].nameFor" class="input-ctn-name">{{authPageContents[0].contents[1].name}}</label>
-                    <input v-model="password" :id="authPageContents[0].contents[1].nameFor" :type="authPageContents[0].contents[1].nameType" required/>
+                    <input v-model="password" :id="authPageContents[0].contents[1].nameFor" :type="authPageContents[0].contents[1].nameType" :style="{border: inputCtnBorderAlertStyle}" required/>
                 </div><br/>
                 <br/>                
                 <SubmitCtn
