@@ -10,7 +10,7 @@ const password=ref('');
 const inputCtnBorderAlertStyle='3px solid #ededed';
 
 const submitLoginDetails=()=>{
-    if ((email.trim()!=='')&&(password.trim()!=='')){
+    if ((email.trim()!=='')||(password.trim()!=='')){
         inputCtnBorderAlertStyle.value='3px solid #ededed';
         isSubmitBtnDisabled.value=false;
     }
