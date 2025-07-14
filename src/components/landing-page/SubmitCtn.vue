@@ -5,7 +5,7 @@ const {name, nameFor, nameType, nameLink}=defineProps(['name', 'nameFor', 'nameT
 </script>
 
 <template>
-    <RouterLink :to="nameLink" class="link">
+    <RouterLink to="" class="link">
         <div class="submit-ctn">
             <button :type="nameType" class="submit-ctn-link-button">
                 {{ name }}
