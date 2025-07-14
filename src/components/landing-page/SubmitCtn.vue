@@ -1,21 +1,21 @@
 <script setup>
 import {ref, defineProps} from "vue";
 
-const {name, nameFor, nameType, nameLink, submitLoginDetails}=defineProps(['name', 'nameFor', 'nameType', 'nameLink', 'submitLoginDetails']);
+const {name, nameFor, nameType, nameLink, submitLoginDetails, isSubmitBtnDisabled}=defineProps(['name', 'nameFor', 'nameType', 'nameLink', 'submitLoginDetails', 'isSubmitBtnDisabled']);
 </script>
 
 <template>
     <RouterLink to="/home" class="link">
-        <div class="submit-ctn">
-            <button :type="nameType" class="submit-ctn-link-button">
+        <button class="submit-ctn-link-button" :disabled="isSubmitBtnDisabled" @click="submitLoginDetails">
+            <div :type="nameType" class="submit-ctn">
                 {{ name }}
-            </button>
-        </div>
+            </div>
+        </button>
     </RouterLink>
 </template>
 
 <style scoped>
-.submit-ctn{
+.submit-ctn-link-button{
     width:100%;
     height:48px;
     background-color: #4d35d3;
@@ -24,7 +24,7 @@ const {name, nameFor, nameType, nameLink, submitLoginDetails}=defineProps(['name
     padding:10px;
     border-radius:10px;
 }
-.submit-ctn-link-button{
+.submit-ctn{
     background-color: transparent;
     color:#ffffff;
     font-size:16px;
@@ -33,7 +33,7 @@ const {name, nameFor, nameType, nameLink, submitLoginDetails}=defineProps(['name
     text-transform: capitalize;
     letter-spacing:2px;
 }
-.submit-ctn:hover{
+.submit-ctn-link-button:hover{
     cursor:pointer;
     background-color: #000000;
     transform:scaleX(0.99);

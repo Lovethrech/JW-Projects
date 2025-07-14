@@ -8,6 +8,7 @@ import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
 const defaultBorder=ref('3px solid #ededed');
 const activeBorder=ref('1px solid #C95F50');
 
+const isSubmitBtnDisabled=ref(true);
 const email=ref('');
 const password=ref('');
 const inputCtnBorderAlertStyle=activeBorder;
@@ -47,6 +48,7 @@ console.log(email, password);
                     :nameType="authPageContents[0].contents[2].nameType"
                     :nameLink="authPageContents[0].contents[2].nameLink"
                     :submitLoginDetails="submitLoginDetails"
+                    :isSubmitBtnDisabled="isSubmitBtnDisabled"
                 >
                 </SubmitCtn>
             </form>
