@@ -4,21 +4,19 @@ import authPageContents from '@/data/auth-page-contents.json';
 import ContentDescCtn from './ContentDescCtn.vue';
 import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
 
-
-const defaultBorder=ref('3px solid #ededed');
-const activeBorder=ref('1px solid #C95F50');
-
 const isSubmitBtnDisabled=ref(true);
 const email=ref('');
 const password=ref('');
-const inputCtnBorderAlertStyle=activeBorder;
+const inputCtnBorderAlertStyle='3px solid #ededed';
 
 const submitLoginDetails=()=>{
-    if (((email.trim()!=='')&&(password.trim()!==''))|| ((email.trim()!=='')||(password.trim()!==''))){
-        inputCtnBorderAlertStyle.value=defaultBorder;
+    if ((email.trim()!=='')&&(password.trim()!=='')){
+        inputCtnBorderAlertStyle.value='3px solid #ededed';
+        isSubmitBtnDisabled.value=false;
     }
     else{
-        inputCtnBorderAlertStyle.value=activeBorder;
+        inputCtnBorderAlertStyle.value='1px solid #C95F50';
+        isSubmitBtnDisabled.value=true;
     }
 }
 
