@@ -1,11 +1,11 @@
 <script setup>
 import {ref, defineProps} from "vue";
 
-const {name, nameFor, nameType, nameLink}=defineProps(['name', 'nameFor', 'nameType', 'nameLink']);
+const {name, nameFor, nameType, nameLink, submitLoginDetails}=defineProps(['name', 'nameFor', 'nameType', 'nameLink', 'submitLoginDetails']);
 </script>
 
 <template>
-    <RouterLink to="" class="link">
+    <RouterLink to="/" class="link">
         <div class="submit-ctn">
             <button :type="nameType" class="submit-ctn-link-button">
                 {{ name }}

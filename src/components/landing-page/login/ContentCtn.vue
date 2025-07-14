@@ -1,4 +1,5 @@
 <script setup>
+import { ref } from "vue";
 import authPageContents from '@/data/auth-page-contents.json';
 import ContentDescCtn from './ContentDescCtn.vue';
 import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
@@ -9,10 +10,13 @@ const activeBorder=ref('1px solid #C95F50');
 
 const email=ref('');
 const password=ref('');
-const inputCtnBorderAlertStyle=defaultBorder;
+const inputCtnBorderAlertStyle=activeBorder;
 
 const submitLoginDetails=()=>{
-    if (((email.value==="")&&(password.value===""))|| ((email.value==="")||(password.value===""))){
+    if (((email.trim()!=='')&&(password.trim()!==''))|| ((email.trim()!=='')||(password.trim()!==''))){
+        inputCtnBorderAlertStyle.value=defaultBorder;
+    }
+    else{
         inputCtnBorderAlertStyle.value=activeBorder;
     }
 }
@@ -42,7 +46,7 @@ console.log(email, password);
                     :nameFor="authPageContents[0].contents[2].nameFor"
                     :nameType="authPageContents[0].contents[2].nameType"
                     :nameLink="authPageContents[0].contents[2].nameLink"
-                    @click="submitLoginDetails"
+                    :submitLoginDetails="submitLoginDetails"
                 >
                 </SubmitCtn>
             </form>
