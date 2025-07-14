@@ -1,10 +1,23 @@
 <script setup>
-import { useGetLoginDetailsStore } from "@/stores/getLoginDetails";
 import authPageContents from '@/data/auth-page-contents.json';
 import ContentDescCtn from './ContentDescCtn.vue';
 import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
 
-const {email, password,inputCtnBorderAlertStyle, submitLoginDetails}=useGetLoginDetailsStore();
+
+const defaultBorder=ref('3px solid #ededed');
+const activeBorder=ref('1px solid #C95F50');
+
+const email=ref('');
+const password=ref('');
+const inputCtnBorderAlertStyle=defaultBorder;
+
+const submitLoginDetails=()=>{
+    if (((email.value==="")&&(password.value===""))|| ((email.value==="")||(password.value===""))){
+        inputCtnBorderAlertStyle.value=activeBorder;
+    }
+}
+
+
 console.log(email, password);
 </script>
 

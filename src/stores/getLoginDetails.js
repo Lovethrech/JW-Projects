@@ -10,7 +10,7 @@ export const useGetLoginDetailsStore = defineStore('getLoginDetails', () => {
     const inputCtnBorderAlertStyle=defaultBorder;
 
     const submitLoginDetails=()=>{
-        if ((((email.value==="") && (email.value===null))&&((password.value==="") && (password.value===null)))|| (((email.value==="") && (email.value===null))||((password.value==="") && (password.value===null)))){
+        if (((email.value==="")&&(password.value===""))|| ((email.value==="")||(password.value===""))){
             inputCtnBorderAlertStyle.value=activeBorder;
         }
     }
