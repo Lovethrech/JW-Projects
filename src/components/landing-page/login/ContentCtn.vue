@@ -1,24 +1,44 @@
 <script setup>
-import { ref } from "vue";
+import { ref, computed } from "vue";
 import authPageContents from '@/data/auth-page-contents.json';
 import ContentDescCtn from './ContentDescCtn.vue';
 import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
+import { watch } from "fs";
 
-const isSubmitBtnDisabled=ref(true);
 const email=ref('');
 const password=ref('');
 const inputCtnBorderAlertStyle='3px solid #ededed';
 
-const submitLoginDetails=()=>{
-    if ((email.trim()!=='')||(password.trim()!=='')){
-        inputCtnBorderAlertStyle.value='3px solid #ededed';
-        isSubmitBtnDisabled.value=false;
+const isSubmitBtnDisabled=computed(()=>{
+    return !((email.value.trim() !=='') || (password.value.trim()!==''))
+});
+const submitLoginDetails = () => {
+
+};
+watch([email, password]), ()=>{
+    if (email.value.trim() !== '' || password.value.trim() !== '') {
+        inputCtnBorderAlertStyle.value = '3px solid #ededed';
     }
     else{
-        inputCtnBorderAlertStyle.value='1px solid #C95F50';
-        isSubmitBtnDisabled.value=true;
+        inputCtnBorderAlertStyle.value = '1px solid #C95F50';
     }
 }
+// <template>
+//   <div class="content-ctn">
+//     <div class="content-ctn-mini-ctn">
+//       <ContentDescCtn />
+//       <form class="form" @submit.prevent="submitLoginDetails">
+//         <div class="input-ctn">
+//           <label :for="authPageContents[0].contents[0].nameFor" class="input-ctn-name">{{ authPageContents[0].contents[0].name }}</label>
+//           <input
+//             v-model.trim="email"
+//             :id="authPageContents[0].contents[0].nameFor"
+//             :type="authPageContents[0].contents[0].nameType"
+//             :style="{ border: inputCtnBorderAlertStyle }"
+//             required
+//           />
+//         </div>
+
 
 
 console.log(email, password);
