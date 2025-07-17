@@ -2,6 +2,12 @@
 import MainCatalogBoxEmptyCtn from './MainCatalogBoxEmptyCtn.vue';
 import ListCardCtn from "./ListCardCtn.vue";
 
+const productNameDesc=ref("");
+const noOfItems=ref("");
+const noOfCartons=ref("");
+const receivedDate=ref("");
+const expiryDate=ref("");
+const location=ref("");
 const listCards=ref([]);
 
 function getRandomColor() {
@@ -9,6 +15,16 @@ function getRandomColor() {
 }
 
 const addListCard=()=>{
+    listCards.value.push({
+        id: Math.floor(Math.random() * 100000),
+        productNameDesc: productNameDesc.value,
+        noOfItems: noOfItems.value,
+        noOfCartons: noOfCartons.value,
+        receivedDate: receivedDate.value,
+        expiryDate: expiryDate.value,
+        location: location.value,
+        backgroundColor: getRandomColor()
+    });
     
 }
 </script>
