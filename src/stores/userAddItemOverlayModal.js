@@ -32,8 +32,8 @@ export const useUserAddItemOverlayModalStore = defineStore('userAddItemOverlayMo
             noOfCartons: noOfCartons.value,
             receivedDate: receivedDate.value,
             expiryDate: expiryDate.value,
-            location: location.value,
-            backgroundColor: getRandomColor()
+            location: location.value
+            // backgroundColor: getRandomColor()
         });
         showModal.value = false;
         productNameDesc.value="";
@@ -43,5 +43,5 @@ export const useUserAddItemOverlayModalStore = defineStore('userAddItemOverlayMo
         expiryDate.value="";
         location.value="";
     }
-    return {productNameDesc, noOfItems, noOfCartons, receivedDate, expiryDate, location, backgroundColor, listCards, showUserAdditemOverlayDefaultState, showUserAdditemOverlayActiveState};
+    return {productNameDesc, noOfItems, noOfCartons, receivedDate, expiryDate, location, listCards, showUserAdditemOverlayDefaultState, showUserAdditemOverlayActiveState};
 });
