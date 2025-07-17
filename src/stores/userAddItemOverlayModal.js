@@ -43,5 +43,5 @@ export const useUserAddItemOverlayModalStore = defineStore('userAddItemOverlayMo
         expiryDate.value="";
         location.value="";
     }
-    return {productNameDesc, noOfItems, noOfCartons, receivedDate, expiryDate, location, backgroundColor,listCards, showUserAdditemOverlayDefaultState, showUserAdditemOverlayActiveState};
+    return {productNameDesc, noOfItems, noOfCartons, receivedDate, expiryDate, location, backgroundColor, listCards, showUserAdditemOverlayDefaultState, showUserAdditemOverlayActiveState};
 });
