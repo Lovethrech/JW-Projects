@@ -14,7 +14,7 @@ export const useUserAddItemOverlayModalStore = defineStore('userAddItemOverlayMo
     function getRandomColor() {
     return "hsl(" + Math.random() * 360 + ", 100%, 75%";
     }
-    
+
     const showUserAdditemOverlayActiveState=()=>{
         if (showUserAdditemOverlayDefaultState.value===false){
             showUserAdditemOverlayDefaultState.value=true;
@@ -36,8 +36,12 @@ export const useUserAddItemOverlayModalStore = defineStore('userAddItemOverlayMo
             backgroundColor: getRandomColor()
         });
         showModal.value = false;
-        newNote.value = "";
-        errorMessage.value = "";
+        productNameDesc.value="";
+        noOfItems.value="";
+        noOfCartons.value="";
+        receivedDate.value="";
+        expiryDate.value="";
+        location.value="";
     }
-    return {showUserAdditemOverlayDefaultState, showUserAdditemOverlayActiveState};
+    return {productNameDesc, noOfItems, noOfCartons, receivedDate, expiryDate, location, backgroundColor,listCards, showUserAdditemOverlayDefaultState, showUserAdditemOverlayActiveState};
 });
