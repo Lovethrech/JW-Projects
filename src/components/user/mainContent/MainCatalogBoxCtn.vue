@@ -5,8 +5,11 @@ import ListCardCtn from "./ListCardCtn.vue";
 
 <template>
     <div class="main-catalog-box-ctn-main-ctn">
+        <!-- <ListCardCtn></ListCardCtn>
+        <ListCardCtn></ListCardCtn>
+        <ListCardCtn></ListCardCtn>
+        <ListCardCtn></ListCardCtn> -->
         <div class="main-catalog-box-ctn-mini-ctn">
-            <ListCardCtn></ListCardCtn>
             <MainCatalogBoxEmptyCtn></MainCatalogBoxEmptyCtn>
         </div>
     </div>
@@ -15,7 +18,7 @@ import ListCardCtn from "./ListCardCtn.vue";
 <style scoped>
 .main-catalog-box-ctn-main-ctn{
     width:100%;
-    height:600px;
+    min-height:600px;
 }
 .main-catalog-box-ctn-mini-ctn{
     width:100%;
