@@ -1,11 +1,12 @@
 <script setup>
 import MainCatalogBoxEmptyCtn from './MainCatalogBoxEmptyCtn.vue';
-import listCardCtn from "@/components/user/mainContent/"
+import ListCardsCtn from "@/components/user/mainContent/ListCardsCtn.vue";
 </script>
 
 <template>
     <div class="main-catalog-box-ctn-main-ctn">
         <div class="main-catalog-box-ctn-main-ctn-list-card-ctn">
+            <ListCardsCtn></ListCardsCtn>
         </div>
         
         <div class="main-catalog-box-ctn-mini-ctn">
