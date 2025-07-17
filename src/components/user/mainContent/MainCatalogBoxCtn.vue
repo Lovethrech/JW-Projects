@@ -5,10 +5,13 @@ import ListCardCtn from "./ListCardCtn.vue";
 
 <template>
     <div class="main-catalog-box-ctn-main-ctn">
-        <ListCardCtn></ListCardCtn>
-        <ListCardCtn></ListCardCtn>
-        <ListCardCtn></ListCardCtn>
-        <ListCardCtn></ListCardCtn>
+        <div class="main-catalog-box-ctn-main-ctn-list-card-ctn">
+            <ListCardCtn></ListCardCtn>
+            <ListCardCtn></ListCardCtn>
+            <ListCardCtn></ListCardCtn>
+            <ListCardCtn></ListCardCtn>
+        </div>
+        
         <div class="main-catalog-box-ctn-mini-ctn">
             <MainCatalogBoxEmptyCtn></MainCatalogBoxEmptyCtn>
         </div>
