@@ -1,6 +1,6 @@
 <script setup>
 import MainCatalogBoxEmptyCtn from './MainCatalogBoxEmptyCtn.vue';
-import ListCardCtn from "./ListCardCtn.vue";
+import ListCardCtn from "./listCardCtn.vue";
 </script>
 
 <template>
