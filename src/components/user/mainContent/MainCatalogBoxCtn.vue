@@ -1,15 +1,24 @@
 <script setup>
 import MainCatalogBoxEmptyCtn from './MainCatalogBoxEmptyCtn.vue';
 import ListCardCtn from "./ListCardCtn.vue";
+
+const listCards=ref([]);
+
+function getRandomColor() {
+  return "hsl(" + Math.random() * 360 + ", 100%, 75%";
+}
+
+const addListCard=()=>{
+    
+}
 </script>
 
 <template>
     <div class="main-catalog-box-ctn-main-ctn">
         <div class="main-catalog-box-ctn-main-ctn-list-card-ctn">
-            <ListCardCtn></ListCardCtn>
-            <ListCardCtn></ListCardCtn>
-            <ListCardCtn></ListCardCtn>
-            <ListCardCtn></ListCardCtn>
+            <ListCardCtn
+            >
+            </ListCardCtn>
         </div>
         
         <div class="main-catalog-box-ctn-mini-ctn">
