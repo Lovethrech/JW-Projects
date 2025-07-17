@@ -10,7 +10,7 @@ const {productNameDesc, noOfItems, noOfCartons, receivedDate, expiryDate, locati
         <div class="user-main-content-list-card-ctn-mini-ctn">
             <div class="user-main-content-list-card-ctn-main-ctn-product-name">
                 <div class="user-main-content-list-card-ctn-main-ctn-product-name-img-ctn">
-                    <img src="" alt=""/>
+                    <!-- <img src="" alt=""/> -->
                 </div>
                 <p class="user-main-content-list-card-ctn-main-ctn-product-name-desc">
                     {{ productNameDesc }}

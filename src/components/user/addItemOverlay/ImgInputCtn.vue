@@ -13,8 +13,8 @@ const {inputImgUrl}=storeToRefs(overlayImageUploadToggleStore);
     <div class="user-add-item-overlay-img-input-ctn-main-ctn">
         <label for="user-add-item-overlay-img-input-ctn-main-ctn-image-upload" @click="handleImageUpload">
             <div class="img-preview">
-                <ImgPreviewEmptyCtn v-show="showInputtedImage"></ImgPreviewEmptyCtn>
-                <!-- <ImgPreviewCtn></ImgPreviewCtn> -->
+                <!-- <ImgPreviewEmptyCtn v-show="showInputtedImage"></ImgPreviewEmptyCtn> -->
+                <ImgPreviewCtn></ImgPreviewCtn>
             </div>
         </label>
         <input :value="inputImgUrl" type="file" accept="image/*" id="user-add-item-overlay-img-input-ctn-main-ctn-image-upload"/>
