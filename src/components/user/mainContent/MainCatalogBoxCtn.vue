@@ -1,10 +1,12 @@
 <script setup>
 import MainCatalogBoxEmptyCtn from './MainCatalogBoxEmptyCtn.vue';
+import ListCardCtn from "./ListCardCtn.vue";
 </script>
 
 <template>
     <div class="main-catalog-box-ctn-main-ctn">
         <div class="main-catalog-box-ctn-mini-ctn">
+            <ListCardCtn></ListCardCtn>
             <MainCatalogBoxEmptyCtn></MainCatalogBoxEmptyCtn>
         </div>
     </div>
@@ -19,6 +21,7 @@ import MainCatalogBoxEmptyCtn from './MainCatalogBoxEmptyCtn.vue';
     width:100%;
     height:100%;
     display:flex;
+    flex-direction: column;
     justify-content: center;
     place-items: center;
 }
