@@ -1,30 +1,22 @@
 <script setup>
 import { ref } from "vue";
+import { useRouter } from "vue-router";
 import authPageContents from '@/data/auth-page-contents.json';
 import ContentDescCtn from './ContentDescCtn.vue';
 
+const router=useRouter();
 const email=ref('');
 const password=ref('');
 const inputCtnBorderAlertStyle=ref('3px solid #ededed');
 
-// const isSubmitBtnDisabled=computed(()=>{
-//     return !((email.value.trim() !=='') || (password.value.trim()!==''))
-// });
 const submitLoginDetails = () => {
     if (((email.value==="") && (password.value==="")) || ((email.value==="") || (password.value===""))){
         inputCtnBorderAlertStyle.value = '1px solid #C95F50';
     }
+    else{
+        router.push('/home');
+    }
 };
-// watch([email, password]), ()=>{
-//     if (email.value.trim() !== '' || password.value.trim() !== '') {
-//         inputCtnBorderAlertStyle.value = '3px solid #ededed';
-//     }
-//     else{
-//         
-//     }
-// }
-
-// console.log(email, password);
 </script>
 
 <template>
