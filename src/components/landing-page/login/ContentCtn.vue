@@ -7,7 +7,7 @@ import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
 
 const email=ref('');
 const password=ref('');
-const inputCtnBorderAlertStyle='3px solid #ededed';
+const inputCtnBorderAlertStyle=ref('3px solid #ededed';
 
 // const isSubmitBtnDisabled=computed(()=>{
 //     return !((email.value.trim() !=='') || (password.value.trim()!==''))
