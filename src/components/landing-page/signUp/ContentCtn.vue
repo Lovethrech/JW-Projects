@@ -17,6 +17,10 @@ const businessName=ref("");
 const businessType=ref("");
 const inventorySize=ref("");
 const preferresAlertChannel=ref("");
+
+const submitSignUpDetails=()=>{
+    
+}
 </script>
 
 <template>
