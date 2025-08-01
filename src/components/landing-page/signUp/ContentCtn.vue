@@ -10,6 +10,7 @@ const inputCtnBorderAlertStyle=ref('3px solid #ededed');
 const firstName=ref("");
 const lastName=ref("");
 const emailAddress=ref("");
+const phoneNumber=ref("");
 </script>
 
 <template>
@@ -37,7 +38,7 @@ const emailAddress=ref("");
                     <br/>
                     <div class="input-ctn-sign">
                         <label :for="authPageContents[1].contents[3].nameFor" class="input-ctn-name">{{authPageContents[1].contents[3].name}}</label>
-                        <input v-model="lastName" :id="authPageContents[1].contents[3].nameFor" :type="authPageContents[1].contents[3].nameType" :style="{border: inputCtnBorderAlertStyle}"/>
+                        <input v-model="phoneNumber" :id="authPageContents[1].contents[3].nameFor" :type="authPageContents[1].contents[3].nameType" :style="{border: inputCtnBorderAlertStyle}"/>
                     </div>
                 </div>
                 <br/>
