@@ -2,7 +2,6 @@
 import { ref } from "vue";
 import authPageContents from '@/data/auth-page-contents.json';
 import ContentDescCtn from './ContentDescCtn.vue';
-import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
 
 const email=ref('');
 const password=ref('');
