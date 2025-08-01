@@ -2,7 +2,7 @@
 import { ref } from "vue";
 import authPageContents from '@/data/auth-page-contents.json';
 import ContentDescCtn from './ContentDescCtn.vue';
-import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
+// import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
 
 const email=ref('');
 const password=ref('');
@@ -45,17 +45,17 @@ const submitLoginDetails = () => {
                 </div><br/>
                 <br/>      
                 
-                <button type="submit">
-                    
+                <button :type="authPageContents[2].nameType" class="submit-ctn-link-button">
+                    {{ authPageContents[2].name }}
                 </button>
-                <SubmitCtn
+                <!-- <SubmitCtn
                     :name="authPageContents[0].contents[2].name"
                     :nameFor="authPageContents[0].contents[2].nameFor"
                     :nameType="authPageContents[0].contents[2].nameType"
                     :nameLink="authPageContents[0].contents[2].nameLink"
                     :submitLoginDetails="submitLoginDetails"
                 >
-                </SubmitCtn>
+                </SubmitCtn> -->
             </form>
         </div>
     </div>
