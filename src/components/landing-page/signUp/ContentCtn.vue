@@ -6,6 +6,8 @@ import ContentDescCtn from './ContentDescCtn.vue';
 import InputCtn from './InputCtn.vue';
 
 const router=useRouter();
+const inputCtnBorderAlertStyle=ref('3px solid #ededed');
+
 </script>
 
 <template>
