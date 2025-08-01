@@ -12,14 +12,16 @@ const inputCtnBorderAlertStyle=ref('3px solid #ededed');
 //     return !((email.value.trim() !=='') || (password.value.trim()!==''))
 // });
 const submitLoginDetails = () => {
-    if (((email.value==="") && (password.value==="")) || ((email.value==="") || (password.value==="")))
+    if (((email.value==="") && (password.value==="")) || ((email.value==="") || (password.value===""))){
+        inputCtnBorderAlertStyle.value = '1px solid #C95F50';
+    }
 };
 // watch([email, password]), ()=>{
 //     if (email.value.trim() !== '' || password.value.trim() !== '') {
 //         inputCtnBorderAlertStyle.value = '3px solid #ededed';
 //     }
 //     else{
-//         inputCtnBorderAlertStyle.value = '1px solid #C95F50';
+//         
 //     }
 // }
 
