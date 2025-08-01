@@ -12,6 +12,9 @@ const lastName=ref("");
 const emailAddress=ref("");
 const phoneNumber=ref("");
 const password=ref("");
+const confirmPassword=ref("");
+const businessName=ref("");
+const businessType=ref("");
 </script>
 
 <template>
@@ -56,19 +59,15 @@ const password=ref("");
                 </div>
                 <br/>
                 <div class="form-div">
-                    <InputCtn
-                        :name="authPageContents[1].contents[6].name"
-                        :nameFor="authPageContents[1].contents[6].nameFor"
-                        :nameType="authPageContents[1].contents[6].nameType"
-                    >
-                    </InputCtn>
+                    <div class="input-ctn-sign">
+                        <label :for="authPageContents[1].contents[6].nameFor" class="input-ctn-name">{{authPageContents[1].contents[6].name}}</label>
+                        <input v-model="businessName" :id="authPageContents[1].contents[6].nameFor" :type="authPageContents[1].contents[6].nameType" :style="{border: inputCtnBorderAlertStyle}"/>
+                    </div>
                     <br/>
-                    <InputCtn
-                        :name="authPageContents[1].contents[7].name"
-                        :nameFor="authPageContents[1].contents[7].nameFor"
-                        :nameType="authPageContents[1].contents[7].nameType"
-                    >
-                    </InputCtn>
+                    <div class="input-ctn-sign">
+                        <label :for="authPageContents[1].contents[7].nameFor" class="input-ctn-name">{{authPageContents[1].contents[7].name}}</label>
+                        <input v-model="businessType" :id="authPageContents[1].contents[7].nameFor" :type="authPageContents[1].contents[7].nameType" :style="{border: inputCtnBorderAlertStyle}"/>
+                    </div>
                 </div>
                 <br/>
                 <div class="form-div">
