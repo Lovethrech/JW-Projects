@@ -3,18 +3,17 @@ import { ref } from "vue";
 import authPageContents from '@/data/auth-page-contents.json';
 import ContentDescCtn from './ContentDescCtn.vue';
 import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
-// import { watch } from "fs";
 
 const email=ref('');
 const password=ref('');
-const inputCtnBorderAlertStyle=ref('3px solid #ededed';
+const inputCtnBorderAlertStyle=ref('3px solid #ededed');
 
 // const isSubmitBtnDisabled=computed(()=>{
 //     return !((email.value.trim() !=='') || (password.value.trim()!==''))
 // });
-// const submitLoginDetails = () => {
-
-// };
+const submitLoginDetails = () => {
+    if (((email.value==="") && (password.value==="")) || ((email.value==="") || (password.value==="")))
+};
 // watch([email, password]), ()=>{
 //     if (email.value.trim() !== '' || password.value.trim() !== '') {
 //         inputCtnBorderAlertStyle.value = '3px solid #ededed';
