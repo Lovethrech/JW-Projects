@@ -43,7 +43,11 @@ const submitLoginDetails = () => {
                     <label :for="authPageContents[0].contents[1].nameFor" class="input-ctn-name">{{authPageContents[0].contents[1].name}}</label>
                     <input v-model="password" :id="authPageContents[0].contents[1].nameFor" :type="authPageContents[0].contents[1].nameType" :style="{border: inputCtnBorderAlertStyle}" required/>
                 </div><br/>
-                <br/>                
+                <br/>      
+                
+                <button type="submit">
+                    
+                </button>
                 <SubmitCtn
                     :name="authPageContents[0].contents[2].name"
                     :nameFor="authPageContents[0].contents[2].nameFor"
