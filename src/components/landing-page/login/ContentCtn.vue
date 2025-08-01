@@ -32,7 +32,7 @@ const submitLoginDetails = () => {
     <div class="content-ctn">
         <div class="content-ctn-mini-ctn">
             <ContentDescCtn></ContentDescCtn>
-            <form class="form">
+            <form class="form" @submit.prevent="submitLoginDetails">
                 <div class="input-ctn">
                     <label :for="authPageContents[0].contents[0].nameFor" class="input-ctn-name">{{authPageContents[0].contents[0].name}}</label>
                     <input v-model="email" :id="authPageContents[0].contents[0].nameFor" :type="authPageContents[0].contents[0].nameType" :style="{border: inputCtnBorderAlertStyle}" required/>
