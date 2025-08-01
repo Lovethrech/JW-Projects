@@ -71,19 +71,15 @@ const businessType=ref("");
                 </div>
                 <br/>
                 <div class="form-div">
-                    <InputCtn
-                        :name="authPageContents[1].contents[8].name"
-                        :nameFor="authPageContents[1].contents[8].nameFor"
-                        :nameType="authPageContents[1].contents[8].nameType"
-                    >
-                    </InputCtn>
+                    <div class="input-ctn-sign">
+                        <label :for="authPageContents[1].contents[1].nameFor" class="input-ctn-name">{{authPageContents[1].contents[1].name}}</label>
+                        <input v-model="lastName" :id="authPageContents[1].contents[1].nameFor" :type="authPageContents[1].contents[1].nameType" :style="{border: inputCtnBorderAlertStyle}"/>
+                    </div>
                     <br/>
-                    <InputCtn
-                        :name="authPageContents[1].contents[9].name"
-                        :nameFor="authPageContents[1].contents[9].nameFor"
-                        :nameType="authPageContents[1].contents[9].nameType"
-                    >
-                    </InputCtn>
+                    <div class="input-ctn-sign">
+                        <label :for="authPageContents[1].contents[1].nameFor" class="input-ctn-name">{{authPageContents[1].contents[1].name}}</label>
+                        <input v-model="lastName" :id="authPageContents[1].contents[1].nameFor" :type="authPageContents[1].contents[1].nameType" :style="{border: inputCtnBorderAlertStyle}"/>
+                    </div>
                 </div>
                 <br/>
                 <button type="submit" class="submit-ctn-link-button">
