@@ -3,7 +3,6 @@ import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 import authPageContents from '@/data/auth-page-contents.json';
 import ContentDescCtn from './ContentDescCtn.vue';
-import InputCtn from './InputCtn.vue';
 
 const router=useRouter();
 const inputCtnBorderAlertStyle=ref('3px solid #ededed');
