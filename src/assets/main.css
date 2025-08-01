@@ -58,6 +58,12 @@ main{
   padding:10px;
   border-radius:10px;
 }
+.submit-ctn-link-button:hover{
+  cursor:pointer;
+  background-color: #000000;
+  transform:scaleX(0.99);
+  transition: all .8s;
+}
 
 
 /* CONTENT CONTAINER COMPONENTS  */
