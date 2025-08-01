@@ -2,7 +2,6 @@
 import authPageContents from '@/data/auth-page-contents.json';
 import ContentDescCtn from './ContentDescCtn.vue';
 import InputCtn from './InputCtn.vue';
-import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
 </script>
 
 <template>
@@ -90,13 +89,9 @@ import SubmitCtn from '@/components/landing-page/SubmitCtn.vue';
                     </InputCtn>
                 </div>
                 <br/>
-                <SubmitCtn
-                    :name="authPageContents[1].contents[10].name"
-                    :nameFor="authPageContents[1].contents[10].nameFor"
-                    :nameType="authPageContents[1].contents[10].nameType"
-                    :nameLink="authPageContents[1].contents[10].nameLink"
-                >
-                </SubmitCtn>
+                <button type="submit" class="submit-ctn-link-button" @click="submitLoginDetails">
+                    Login
+                </button>
             </form>
         </div>
     </div>
