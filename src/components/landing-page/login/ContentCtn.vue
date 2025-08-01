@@ -44,7 +44,7 @@ const submitLoginDetails = () => {
                 </div><br/>
                 <br/>      
                 
-                <button type="submit" class="submit-ctn-link-button">
+                <button type="submit" class="submit-ctn-link-button" @click="submitLoginDetails">
                     Login
                 </button>
             </form>
