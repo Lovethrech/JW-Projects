@@ -49,12 +49,10 @@ const password=ref("");
                         <input v-model="password" :id="authPageContents[1].contents[4].nameFor" :type="authPageContents[1].contents[4].nameType" :style="{border: inputCtnBorderAlertStyle}"/>
                     </div>
                     <br/>
-                    <InputCtn
-                        :name="authPageContents[1].contents[5].name"
-                        :nameFor="authPageContents[1].contents[5].nameFor"
-                        :nameType="authPageContents[1].contents[5].nameType"
-                    >
-                    </InputCtn>
+                    <div class="input-ctn-sign">
+                        <label :for="authPageContents[1].contents[5].nameFor" class="input-ctn-name">{{authPageContents[1].contents[5].name}}</label>
+                        <input v-model="lastName" :id="authPageContents[1].contents[5].nameFor" :type="authPageContents[1].contents[5].nameType" :style="{border: inputCtnBorderAlertStyle}"/>
+                    </div>
                 </div>
                 <br/>
                 <div class="form-div">
