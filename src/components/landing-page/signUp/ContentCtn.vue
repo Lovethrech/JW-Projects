@@ -15,6 +15,8 @@ const password=ref("");
 const confirmPassword=ref("");
 const businessName=ref("");
 const businessType=ref("");
+const inventorySize=ref("");
+const preferresAlertChannel=ref("");
 </script>
 
 <template>
