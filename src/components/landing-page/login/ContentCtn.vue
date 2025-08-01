@@ -27,13 +27,14 @@ const submitLoginDetails = () => {
                 <div class="input-ctn">
                     <label :for="authPageContents[0].contents[0].nameFor" class="input-ctn-name">{{authPageContents[0].contents[0].name}}</label>
                     <input v-model="email" :id="authPageContents[0].contents[0].nameFor" :type="authPageContents[0].contents[0].nameType" :style="{border: inputCtnBorderAlertStyle}"/>
-                </div><br/>
+                </div>
                 <br/>
-
+                <br/>
                 <div class="input-ctn">
                     <label :for="authPageContents[0].contents[1].nameFor" class="input-ctn-name">{{authPageContents[0].contents[1].name}}</label>
                     <input v-model="password" :id="authPageContents[0].contents[1].nameFor" :type="authPageContents[0].contents[1].nameType" :style="{border: inputCtnBorderAlertStyle}"/>
-                </div><br/>
+                </div>
+                <br/>
                 <br/>      
                 <button type="submit" class="submit-ctn-link-button" @click="submitLoginDetails">
                     Login
