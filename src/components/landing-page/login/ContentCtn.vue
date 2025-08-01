@@ -35,7 +35,6 @@ const submitLoginDetails = () => {
                     <input v-model="password" :id="authPageContents[0].contents[1].nameFor" :type="authPageContents[0].contents[1].nameType" :style="{border: inputCtnBorderAlertStyle}"/>
                 </div><br/>
                 <br/>      
-                
                 <button type="submit" class="submit-ctn-link-button" @click="submitLoginDetails">
                     Login
                 </button>
