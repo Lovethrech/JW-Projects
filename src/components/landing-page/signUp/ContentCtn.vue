@@ -19,7 +19,9 @@ const inventorySize=ref("");
 const preferresAlertChannel=ref("");
 
 const submitSignUpDetails=()=>{
-    if ((firstName.value==="") && (lastName.value==="") && (emailAddress.value==="") && (phoneNumber.value==="") && (password.value==="") && (confirmPassword.value==="") && (businessName.value==="") && (businessType.value==="") && (inventorySize.value==="") && (preferresAlertChannel.value===""))
+    if (((firstName.value==="") && (lastName.value==="") && (emailAddress.value==="") && (phoneNumber.value==="") && (password.value==="") && (confirmPassword.value==="") && (businessName.value==="") && (businessType.value==="") && (inventorySize.value==="") && (preferresAlertChannel.value==="")) || ((firstName.value==="") || (lastName.value==="") || (emailAddress.value==="") || (phoneNumber.value==="") || (password.value==="") || (confirmPassword.value==="") || (businessName.value==="") || (businessType.value==="") || (inventorySize.value==="") || (preferresAlertChannel.value===""))){
+        
+    }
 }
 </script>
 
