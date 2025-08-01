@@ -21,9 +21,7 @@ const preferresAlertChannel=ref("");
 const submitSignUpDetails=()=>{
     if (((firstName.value==="") && (lastName.value==="") && (emailAddress.value==="") && (phoneNumber.value==="") && (password.value==="") && (confirmPassword.value==="") && (businessName.value==="") && (businessType.value==="") && (inventorySize.value==="") && (preferresAlertChannel.value==="")) || ((firstName.value==="") || (lastName.value==="") || (emailAddress.value==="") || (phoneNumber.value==="") || (password.value==="") || (confirmPassword.value==="") || (businessName.value==="") || (businessType.value==="") || (inventorySize.value==="") || (preferresAlertChannel.value===""))){
         inputCtnBorderAlertStyle.value = '1px solid #C95F50';
-        if ((password.value)!==(confirmPassword.value)){
-            inputCtnBorderAlertStyle.value = '1px solid #C95F50';
-        }
+        
     }
     else{
         router.push('/home');
@@ -87,7 +85,7 @@ const submitSignUpDetails=()=>{
                 <div class="form-div">
                     <div class="input-ctn-sign">
                         <label :for="authPageContents[1].contents[8].nameFor" class="input-ctn-name">{{authPageContents[1].contents[8].name}}</label>
-                        <input v-model="inventorySize" :id="authPageContents[1].contents[8].nameFor" :type="authPageContents[1].contents[8].nameType" :style="{border: inputCtnBorderAlertStyle}"/>
+                        <input v-model="inventorySize" min="10" :id="authPageContents[1].contents[8].nameFor" :type="authPageContents[1].contents[8].nameType" :style="{border: inputCtnBorderAlertStyle}"/>
                     </div>
                     <br/>
                     <div class="input-ctn-sign">
