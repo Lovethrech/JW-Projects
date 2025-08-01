@@ -14,13 +14,6 @@
                 "name": "password",
                 "nameFor": "password",
                 "nameType": "password"
-            },
-            {
-                "id": "3",
-                "name": "login",
-                "nameFor": "loginBtn",
-                "nameType": "submit",
-                "nameLink": "/home"
             }
         ]
     },
