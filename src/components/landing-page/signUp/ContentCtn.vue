@@ -51,7 +51,7 @@ const password=ref("");
                     <br/>
                     <div class="input-ctn-sign">
                         <label :for="authPageContents[1].contents[5].nameFor" class="input-ctn-name">{{authPageContents[1].contents[5].name}}</label>
-                        <input v-model="lastName" :id="authPageContents[1].contents[5].nameFor" :type="authPageContents[1].contents[5].nameType" :style="{border: inputCtnBorderAlertStyle}"/>
+                        <input v-model="confirmPassword" :id="authPageContents[1].contents[5].nameFor" :type="authPageContents[1].contents[5].nameType" :style="{border: inputCtnBorderAlertStyle}"/>
                     </div>
                 </div>
                 <br/>
