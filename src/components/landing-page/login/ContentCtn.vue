@@ -48,14 +48,6 @@ const submitLoginDetails = () => {
                 <button type="submit" class="submit-ctn-link-button">
                     Login
                 </button>
-                <!-- <SubmitCtn
-                    :name="authPageContents[0].contents[2].name"
-                    :nameFor="authPageContents[0].contents[2].nameFor"
-                    :nameType="authPageContents[0].contents[2].nameType"
-                    :nameLink="authPageContents[0].contents[2].nameLink"
-                    :submitLoginDetails="submitLoginDetails"
-                >
-                </SubmitCtn> -->
             </form>
         </div>
     </div>
