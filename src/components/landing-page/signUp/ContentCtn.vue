@@ -15,8 +15,8 @@ const router=useRouter();
             <form class="form">
                 <div class="form-div">
                     <div class="input-ctn">
-                        <label :for="authPageContents[0].contents[0].nameFor" class="input-ctn-name">{{authPageContents[0].contents[0].name}}</label>
-                        <input v-model="email" :id="authPageContents[0].contents[0].nameFor" :type="authPageContents[0].contents[0].nameType" :style="{border: inputCtnBorderAlertStyle}"/>
+                        <label :for="authPageContents[1].contents[0].nameFor" class="input-ctn-name">{{authPageContents[1].contents[0].name}}</label>
+                        <input v-model="email" :id="authPageContents[1].contents[0].nameFor" :type="authPageContents[1].contents[0].nameType" :style="{border: inputCtnBorderAlertStyle}"/>
                     </div>
                     <br/>
                     <InputCtn
