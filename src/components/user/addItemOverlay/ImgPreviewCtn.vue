@@ -1,8 +1,7 @@
 <script setup>
-import { useOverlayImageUploadToggleStore } from '@/stores/overlayImageUploadToggle';
+import { defineProps } from 'vue';
 
-const {inputImgUrl}=useOverlayImageUploadToggleStore();
-console.log(inputImgUrl.value);
+const {inputImgUrl}=defineProps(['inputImgUrl']);
 </script>
 
 <template>
