@@ -8,6 +8,7 @@ import InputCtn from './InputCtn.vue';
 const router=useRouter();
 const inputCtnBorderAlertStyle=ref('3px solid #ededed');
 const firstName=ref("");
+const lastName=ref("");
 </script>
 
 <template>
@@ -28,12 +29,10 @@ const firstName=ref("");
                 </div>                
                 <br/>
                 <div class="form-div">
-                    <InputCtn
-                        :name="authPageContents[1].contents[2].name"
-                        :nameFor="authPageContents[1].contents[2].nameFor"
-                        :nameType="authPageContents[1].contents[2].nameType"
-                    >
-                    </InputCtn>
+                    <div class="input-ctn-sign">
+                        <label :for="authPageContents[1].contents[2].nameFor" class="input-ctn-name">{{authPageContents[1].contents[2].name}}</label>
+                        <input v-model="lastName" :id="authPageContents[1].contents[2].nameFor" :type="authPageContents[1].contents[2].nameType" :style="{border: inputCtnBorderAlertStyle}"/>
+                    </div>
                     <br/>
                     <InputCtn
                         :name="authPageContents[1].contents[3].name"
