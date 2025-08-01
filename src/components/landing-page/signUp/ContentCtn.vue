@@ -1,5 +1,5 @@
 <script setup>
-import {ref} from 'vue';
+import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 import authPageContents from '@/data/auth-page-contents.json';
 import ContentDescCtn from './ContentDescCtn.vue';
