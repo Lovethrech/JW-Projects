@@ -1,4 +1,5 @@
 <script setup>
+import {ref} from 'vue';
 import authPageContents from '@/data/auth-page-contents.json';
 import ContentDescCtn from './ContentDescCtn.vue';
 import InputCtn from './InputCtn.vue';
@@ -89,7 +90,7 @@ import InputCtn from './InputCtn.vue';
                     </InputCtn>
                 </div>
                 <br/>
-                <button type="submit" class="submit-ctn-link-button" @click="submitLoginDetails">
+                <button type="submit" class="submit-ctn-link-button">
                     Login
                 </button>
             </form>
