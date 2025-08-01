@@ -16,17 +16,15 @@ const firstName=ref("");
             <ContentDescCtn></ContentDescCtn>
             <form class="form">
                 <div class="form-div">
-                    <div class="input-ctn">
+                    <div class="input-ctn-sign">
                         <label :for="authPageContents[1].contents[0].nameFor" class="input-ctn-name">{{authPageContents[1].contents[0].name}}</label>
                         <input v-model="firstName" :id="authPageContents[1].contents[0].nameFor" :type="authPageContents[1].contents[0].nameType" :style="{border: inputCtnBorderAlertStyle}"/>
                     </div>
                     <br/>
-                    <InputCtn
-                        :name="authPageContents[1].contents[1].name"
-                        :nameFor="authPageContents[1].contents[1].nameFor"
-                        :nameType="authPageContents[1].contents[1].nameType"
-                    >
-                    </InputCtn>
+                    <div class="input-ctn-sign">
+                        <label :for="authPageContents[1].contents[1].nameFor" class="input-ctn-name">{{authPageContents[1].contents[1].name}}</label>
+                        <input v-model="lastName" :id="authPageContents[1].contents[1].nameFor" :type="authPageContents[1].contents[1].nameType" :style="{border: inputCtnBorderAlertStyle}"/>
+                    </div>
                 </div>                
                 <br/>
                 <div class="form-div">
