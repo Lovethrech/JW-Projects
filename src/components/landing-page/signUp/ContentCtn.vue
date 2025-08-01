@@ -20,7 +20,13 @@ const preferresAlertChannel=ref("");
 
 const submitSignUpDetails=()=>{
     if (((firstName.value==="") && (lastName.value==="") && (emailAddress.value==="") && (phoneNumber.value==="") && (password.value==="") && (confirmPassword.value==="") && (businessName.value==="") && (businessType.value==="") && (inventorySize.value==="") && (preferresAlertChannel.value==="")) || ((firstName.value==="") || (lastName.value==="") || (emailAddress.value==="") || (phoneNumber.value==="") || (password.value==="") || (confirmPassword.value==="") || (businessName.value==="") || (businessType.value==="") || (inventorySize.value==="") || (preferresAlertChannel.value===""))){
-        
+        inputCtnBorderAlertStyle.value = '1px solid #C95F50';
+        if ((password.value)!==(confirmPassword.value)){
+            inputCtnBorderAlertStyle.value = '1px solid #C95F50';
+        }
+    }
+    else{
+        router.push('/home');
     }
 }
 </script>
@@ -29,7 +35,7 @@ const submitSignUpDetails=()=>{
     <div class="content-ctn">
         <div class="content-ctn-mini-ctn">
             <ContentDescCtn></ContentDescCtn>
-            <form class="form">
+            <form class="form" @submit.prevent="submitSignUpDetails">
                 <div class="form-div">
                     <div class="input-ctn-sign">
                         <label :for="authPageContents[1].contents[0].nameFor" class="input-ctn-name">{{authPageContents[1].contents[0].name}}</label>
@@ -90,7 +96,7 @@ const submitSignUpDetails=()=>{
                     </div>
                 </div>
                 <br/>
-                <button type="submit" class="submit-ctn-link-button">
+                <button type="submit" class="submit-ctn-link-button" @click="submitSignUpDetails">
                     Login
                 </button>
             </form>
